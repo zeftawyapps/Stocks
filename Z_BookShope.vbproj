@@ -1,0 +1,558 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ApplicationIcon>5.ico</ApplicationIcon>
+  </PropertyGroup>
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{72BF4CED-F6C4-443C-815F-42533A2B0F0D}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>Z_Apps.Welcomeform</StartupObject>
+    <RootNamespace>Z_Apps</RootNamespace>
+    <AssemblyName>Z_Apps</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsFormsWithCustomSubMain</MyType>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Z_Apps.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Z_Apps.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=12.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=12.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.Shared, Version=12.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=12.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="FlashControlV71, Version=1.0.3187.32366, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="Microsoft.ReportViewer.Common, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.VisualBasic.PowerPacks.Vs, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.Entity" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="ZeftawyTools, Version=1.0.0.0, Culture=neutral, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>.\ZeftawyTools.dll</HintPath>
+    </Reference>
+    <Reference Include="ZeftawyTools.vshost, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>.\ZeftawyTools.vshost.exe</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AccProject\AccountsClasse.vb" />
+    <Compile Include="AccProject\designfrm.Designer.vb">
+      <DependentUpon>designfrm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AccProject\designfrm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AccProject\File\AoutoEnterStockDataBookShopefrm.Designer.vb">
+      <DependentUpon>AoutoEnterStockDataBookShopefrm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AccProject\File\AoutoEnterStockDataBookShopefrm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AccProject\File\AoutoEnterStockDataShopefrm.Designer.vb">
+      <DependentUpon>AoutoEnterStockDataShopefrm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AccProject\File\AoutoEnterStockDataShopefrm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AccProject\File\StockDataMarket.Designer.vb">
+      <DependentUpon>StockDataMarket.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AccProject\File\StockDataMarket.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AccProject\File\StockDataShopeingfr.Designer.vb">
+      <DependentUpon>StockDataShopeingfr.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AccProject\File\StockDataShopeingfr.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AccProject\menue\DataChoseFrm.Designer.vb">
+      <DependentUpon>DataChoseFrm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AccProject\menue\DataChoseFrm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AccProject\menue\DesigneControlFrm.Designer.vb">
+      <DependentUpon>DesigneControlFrm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AccProject\menue\DesigneControlFrm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AccProject\menue\lageinFrm.Designer.vb">
+      <DependentUpon>lageinFrm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AccProject\menue\lageinFrm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AccProject\menue\PowersFrm.Designer.vb">
+      <DependentUpon>PowersFrm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AccProject\menue\PowersFrm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AccProject\menue\RunTimePorperty.Designer.vb">
+      <DependentUpon>RunTimePorperty.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AccProject\menue\RunTimePorperty.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="AccProject\moavement\ClientSupplierBBfrm.Designer.vb">
+      <DependentUpon>ClientSupplierBBfrm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AccProject\moavement\ClientSupplierBBfrm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AccProject\moavement\ExpRevFrm.Designer.vb">
+      <DependentUpon>ExpRevFrm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AccProject\moavement\ExpRevFrm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AccProject\moavement\MarketMove.Designer.vb">
+      <DependentUpon>MarketMove.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AccProject\moavement\MarketMove.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AccProject\moavement\TestPrint.Designer.vb">
+      <DependentUpon>TestPrint.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AccProject\moavement\TestPrint.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AccProject\َQuary\CashFlowQfrm.Designer.vb">
+      <DependentUpon>CashFlowQfrm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AccProject\َQuary\CashFlowQfrm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AccProject\َQuary\ClientBalanceFrm.Designer.vb">
+      <DependentUpon>ClientBalanceFrm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AccProject\َQuary\ClientBalanceFrm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AccProject\َQuary\MarketBalanceFrm.Designer.vb">
+      <DependentUpon>MarketBalanceFrm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AccProject\َQuary\MarketBalanceFrm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AccProject\َQuary\smallQfrm.Designer.vb">
+      <DependentUpon>smallQfrm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AccProject\َQuary\smallQfrm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AccProject\َQuary\StockBalane.Designer.vb">
+      <DependentUpon>StockBalane.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AccProject\َQuary\StockBalane.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AccProject\menue\MainMenuefrm.Designer.vb">
+      <DependentUpon>MainMenuefrm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AccProject\menue\MainMenuefrm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AccProject\menue\Startfrm.Designer.vb">
+      <DependentUpon>Startfrm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AccProject\menue\Startfrm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AccProject\menue\WelcomeFrm.Designer.vb">
+      <DependentUpon>WelcomeFrm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AccProject\menue\WelcomeFrm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AccProject\moavement\CashFlowfrm.Designer.vb">
+      <DependentUpon>CashFlowfrm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AccProject\moavement\CashFlowfrm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AccProject\moavement\StockMove.Designer.vb">
+      <DependentUpon>StockMove.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AccProject\moavement\StockMove.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AccProject\ProjectFunc.vb" />
+    <Compile Include="AccProject\َQuary\TrailBalanceFrm.Designer.vb">
+      <DependentUpon>TrailBalanceFrm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AccProject\َQuary\TrailBalanceFrm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CB_AccDataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CB_AccDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="CB_AccDataSet.vb">
+      <DependentUpon>CB_AccDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ControlPanal\Contorlpanal.vb" />
+    <Compile Include="ControlPanal\DataBase\Class1.vb" />
+    <Compile Include="ControlPanal\DataBase\DataStructures_movement.vb" />
+    <Compile Include="ControlPanal\DataBase\DataStructure_myData.vb" />
+    <Compile Include="ControlPanal\Zettawy tools test\copyPastDataCode.vb" />
+    <Compile Include="ControlPanal\Zettawy tools test\t_.Designer.vb">
+      <DependentUpon>t_.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ControlPanal\Zettawy tools test\t_.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="MovementDataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>MovementDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="MovementDataSet.vb">
+      <DependentUpon>MovementDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="AccProject\File\mainStnfFrm.Designer.vb">
+      <DependentUpon>mainStnfFrm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AccProject\File\mainStnfFrm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AccProject\File\DataEpFrm.Designer.vb">
+      <DependentUpon>DataEpFrm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AccProject\File\DataEpFrm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AccProject\File\CleintData.Designer.vb">
+      <DependentUpon>CleintData.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AccProject\File\CleintData.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AccProject\File\StockData.Designer.vb">
+      <DependentUpon>StockData.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AccProject\File\StockData.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MovementDataSet1.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>MovementDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="mydataDataSet1.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>mydataDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="mydataDataSet1.vb">
+      <DependentUpon>mydataDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="AccProject\َQuary\smallQBookShopfrm.Designer.vb">
+      <DependentUpon>smallQBookShopfrm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AccProject\َQuary\smallQBookShopfrm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ControlPanal\DataBase\projectDataBase.vb" />
+    <Compile Include="ControlPanal\Report\Detailes.vb" />
+    <Compile Include="ControlPanal\Report\InvoicePrint.vb" />
+    <Compile Include="ControlPanal\Report\NewFolder1\drowTable.vb" />
+    <Compile Include="ControlPanal\Report\NewFolder1\test.designer.vb">
+      <DependentUpon>test.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ControlPanal\Report\NewFolder1\test.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ControlPanal\Report\one Feild.vb" />
+    <Compile Include="ControlPanal\Report\Pages.vb" />
+    <Compile Include="ControlPanal\Report\Picture.vb" />
+    <Compile Include="ControlPanal\Report\reportOverPritnt.vb" />
+    <Compile Include="ControlPanal\Report\reportPart.vb" />
+    <Compile Include="ControlPanal\Report\ReportPrint.vb" />
+    <Compile Include="ControlPanal\Report\Table.vb" />
+    <Compile Include="ControlPanal\Zettawy tools test\DataPostionCode.Designer.vb">
+      <DependentUpon>DataPostionCode.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ControlPanal\Zettawy tools test\DataPostionCode.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ControlPanal\Zettawy tools test\OledbDataBaseCode.vb" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="AccProject\designfrm.resx">
+      <DependentUpon>designfrm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AccProject\File\AoutoEnterStockDataBookShopefrm.resx">
+      <DependentUpon>AoutoEnterStockDataBookShopefrm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AccProject\File\AoutoEnterStockDataShopefrm.resx">
+      <DependentUpon>AoutoEnterStockDataShopefrm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AccProject\File\StockDataMarket.resx">
+      <DependentUpon>StockDataMarket.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AccProject\File\StockDataShopeingfr.resx">
+      <DependentUpon>StockDataShopeingfr.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AccProject\menue\DataChoseFrm.resx">
+      <DependentUpon>DataChoseFrm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AccProject\menue\DesigneControlFrm.resx">
+      <DependentUpon>DesigneControlFrm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AccProject\menue\lageinFrm.resx">
+      <DependentUpon>lageinFrm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AccProject\menue\PowersFrm.resx">
+      <DependentUpon>PowersFrm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AccProject\menue\RunTimePorperty.resx">
+      <DependentUpon>RunTimePorperty.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AccProject\moavement\ClientSupplierBBfrm.resx">
+      <DependentUpon>ClientSupplierBBfrm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AccProject\moavement\ExpRevFrm.resx">
+      <DependentUpon>ExpRevFrm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AccProject\moavement\MarketMove.resx">
+      <DependentUpon>MarketMove.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AccProject\moavement\TestPrint.resx">
+      <DependentUpon>TestPrint.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AccProject\َQuary\CashFlowQfrm.resx">
+      <DependentUpon>CashFlowQfrm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AccProject\َQuary\ClientBalanceFrm.resx">
+      <DependentUpon>ClientBalanceFrm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AccProject\َQuary\MarketBalanceFrm.resx">
+      <DependentUpon>MarketBalanceFrm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AccProject\َQuary\smallQfrm.resx">
+      <DependentUpon>smallQfrm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AccProject\َQuary\StockBalane.resx">
+      <DependentUpon>StockBalane.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AccProject\menue\MainMenuefrm.resx">
+      <DependentUpon>MainMenuefrm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AccProject\menue\Startfrm.resx">
+      <DependentUpon>Startfrm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AccProject\menue\WelcomeFrm.resx">
+      <DependentUpon>WelcomeFrm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AccProject\moavement\CashFlowfrm.resx">
+      <DependentUpon>CashFlowfrm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AccProject\File\StockData.resx">
+      <DependentUpon>StockData.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AccProject\File\mainStnfFrm.resx">
+      <DependentUpon>mainStnfFrm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AccProject\File\DataEpFrm.resx">
+      <DependentUpon>DataEpFrm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AccProject\File\CleintData.resx">
+      <DependentUpon>CleintData.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AccProject\moavement\StockMove.resx">
+      <DependentUpon>StockMove.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AccProject\َQuary\TrailBalanceFrm.resx">
+      <DependentUpon>TrailBalanceFrm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControlPanal\Zettawy tools test\t_.resx">
+      <DependentUpon>t_.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AccProject\َQuary\smallQBookShopfrm.resx">
+      <DependentUpon>smallQBookShopfrm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControlPanal\Report\NewFolder1\test.resx">
+      <DependentUpon>test.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControlPanal\Zettawy tools test\DataPostionCode.resx">
+      <DependentUpon>DataPostionCode.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="CB_AccDataSet.xsc">
+      <DependentUpon>CB_AccDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="CB_AccDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>CB_AccDataSet.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="CB_AccDataSet.xss">
+      <DependentUpon>CB_AccDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="MovementDataSet.xsc">
+      <DependentUpon>MovementDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="MovementDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>MovementDataSet.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="MovementDataSet.xss">
+      <DependentUpon>MovementDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="MovementDataSet1.xsc">
+      <DependentUpon>MovementDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="MovementDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>MovementDataSet1.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="MovementDataSet1.xss">
+      <DependentUpon>MovementDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="My Project\app.manifest" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+    <None Include="mydataDataSet1.xsc">
+      <DependentUpon>mydataDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="mydataDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>mydataDataSet1.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="mydataDataSet1.xss">
+      <DependentUpon>mydataDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="ControlPanal\Report\ClassDiagram1.cd" />
+    <None Include="ControlPanal\Report\NewFolder1\ClassDiagram1.cd" />
+    <None Include="برنامج المخازن.xls" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="5.ico" />
+    <Content Include="CB_Acc.accdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Movement.mdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="mydata.mdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ZeftawyTools.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="AccProject\File\moveAcc\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

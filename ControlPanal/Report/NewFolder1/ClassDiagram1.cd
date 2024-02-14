@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="HOkmes.MySimpleReport">
+    <Position X="1" Y="0.5" Width="4.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Enum Name="HOkmes.MySimpleReport.doublelines" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Report\NewFolder1\drowTable.vb</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Class Name="HOkmes.MySimpleReport.line" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Report\NewFolder1\drowTable.vb</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Enum Name="HOkmes.MySimpleReport.MelanguageType" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Report\NewFolder1\drowTable.vb</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Enum Name="HOkmes.MySimpleReport.TableInPage" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Report\NewFolder1\drowTable.vb</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Enum Name="HOkmes.MySimpleReport.myStingAllighin" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Report\NewFolder1\drowTable.vb</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Enum Name="HOkmes.MySimpleReport.PicturePossion" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Report\NewFolder1\drowTable.vb</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>19oaPbA+8T412JeL4nq9tNHWsD8Kv1cpn4/p2U07zVY=</HashCode>
+      <FileName>Report\NewFolder1\drowTable.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Tahoma" Size="10" />
+</ClassDiagram>

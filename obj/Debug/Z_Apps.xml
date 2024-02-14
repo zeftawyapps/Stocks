@@ -1,0 +1,3203 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Z_Apps
+</name>
+</assembly>
+<members>
+<member name="P:Z_Apps.AccountsClasse.GetAccount">
+ <summary>
+ لدمج الحسابات
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:Z_Apps.RunTimeColorPorperty.PropartyName">
+ <summary>
+ اسم الخاصية 
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:Z_Apps.RunTimeColorPorperty.Color">
+ <summary>
+ لون الخاصية 
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="T:Z_Apps.CB_AccDataSet">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Z_Apps.CB_AccDataSet.AccNameDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Z_Apps.CB_AccDataSet.CashAccNameDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Z_Apps.CB_AccDataSet.ExpTypeDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Z_Apps.CB_AccDataSet.AccNameRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Z_Apps.CB_AccDataSet.CashAccNameRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Z_Apps.CB_AccDataSet.ExpTypeRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Z_Apps.CB_AccDataSet.AccNameRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Z_Apps.CB_AccDataSet.CashAccNameRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Z_Apps.CB_AccDataSet.ExpTypeRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Z_Apps.CB_AccDataSetTableAdapters.AccNameTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Z_Apps.CB_AccDataSetTableAdapters.CashAccNameTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Z_Apps.CB_AccDataSetTableAdapters.ExpTypeTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Z_Apps.CB_AccDataSetTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:Z_Apps.CB_AccDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(Z_Apps.CB_AccDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:Z_Apps.CB_AccDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(Z_Apps.CB_AccDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:Z_Apps.CB_AccDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(Z_Apps.CB_AccDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:Z_Apps.CB_AccDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:Z_Apps.CB_AccDataSetTableAdapters.TableAdapterManager.UpdateAll(Z_Apps.CB_AccDataSet)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:Z_Apps.CB_AccDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:Z_Apps.CB_AccDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="M:Z_Apps.myProjectWork.UnitedQ(Z_Apps.Unet_major,System.String,System.Int32,System.Boolean)">
+ <summary>
+ هذه الداله لا تستخدم في الادخال المباشر على التكست بوكس ولكن تستخدم في التحويل فقط
+ </summary>
+ <param name="un"></param>
+ <param name="q"></param>
+ <param name="opiset"></param>
+ <remarks></remarks>
+</member>
+<member name="M:Z_Apps.copyPastDataCode.openFile">
+ <summary>
+ فتح الملفات
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:Z_Apps.copyPastDataCode.PastNewd(System.Windows.Forms.DataGridView,Z_Apps.OLEdatabaseCodeing,System.Int32)">
+ <summary>
+ لصق جديد
+ </summary>
+ <param name="dgv"></param>
+ <remarks></remarks>
+</member>
+<member name="T:Z_Apps.MovementDataSet">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Z_Apps.MovementDataSet.CahfFlowDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Z_Apps.MovementDataSet.CahfFlowRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Z_Apps.MovementDataSet.CahfFlowRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Z_Apps.MovementDataSetTableAdapters.CahfFlowTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Z_Apps.MovementDataSetTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:Z_Apps.MovementDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(Z_Apps.MovementDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:Z_Apps.MovementDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(Z_Apps.MovementDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:Z_Apps.MovementDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(Z_Apps.MovementDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:Z_Apps.MovementDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:Z_Apps.MovementDataSetTableAdapters.TableAdapterManager.UpdateAll(Z_Apps.MovementDataSet)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:Z_Apps.MovementDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:Z_Apps.MovementDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:Z_Apps.MovementDataSet1">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Z_Apps.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:Z_Apps.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:Z_Apps.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="T:Z_Apps.mydataDataSet1">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Z_Apps.mydataDataSet1.ClientTableDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Z_Apps.mydataDataSet1.DataENameTableDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Z_Apps.mydataDataSet1.mainSanftableDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Z_Apps.mydataDataSet1.CleintAccDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Z_Apps.mydataDataSet1.markadataDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Z_Apps.mydataDataSet1.RebExpensseTableDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Z_Apps.mydataDataSet1.SalePayMovementDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Z_Apps.mydataDataSet1.StocBalancetableDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Z_Apps.mydataDataSet1.DocNoDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Z_Apps.mydataDataSet1.StockQuaryDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Z_Apps.mydataDataSet1.StockDataTableDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Z_Apps.mydataDataSet1.CahfFlowDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Z_Apps.mydataDataSet1.CashFlowDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Z_Apps.mydataDataSet1.ClientTableRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Z_Apps.mydataDataSet1.DataENameTableRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Z_Apps.mydataDataSet1.mainSanftableRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Z_Apps.mydataDataSet1.CleintAccRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Z_Apps.mydataDataSet1.markadataRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Z_Apps.mydataDataSet1.RebExpensseTableRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Z_Apps.mydataDataSet1.SalePayMovementRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Z_Apps.mydataDataSet1.StocBalancetableRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Z_Apps.mydataDataSet1.DocNoRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Z_Apps.mydataDataSet1.StockQuaryRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Z_Apps.mydataDataSet1.StockDataTableRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Z_Apps.mydataDataSet1.CahfFlowRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Z_Apps.mydataDataSet1.CashFlowRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Z_Apps.mydataDataSet1.ClientTableRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Z_Apps.mydataDataSet1.DataENameTableRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Z_Apps.mydataDataSet1.mainSanftableRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Z_Apps.mydataDataSet1.CleintAccRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Z_Apps.mydataDataSet1.markadataRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Z_Apps.mydataDataSet1.RebExpensseTableRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Z_Apps.mydataDataSet1.SalePayMovementRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Z_Apps.mydataDataSet1.StocBalancetableRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Z_Apps.mydataDataSet1.DocNoRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Z_Apps.mydataDataSet1.StockQuaryRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Z_Apps.mydataDataSet1.StockDataTableRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Z_Apps.mydataDataSet1.CahfFlowRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Z_Apps.mydataDataSet1.CashFlowRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Z_Apps.mydataDataSet1TableAdapters.ClientTableTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Z_Apps.mydataDataSet1TableAdapters.DataENameTableTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Z_Apps.mydataDataSet1TableAdapters.mainSanftableTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Z_Apps.mydataDataSet1TableAdapters.CleintAccTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Z_Apps.mydataDataSet1TableAdapters.markadataTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Z_Apps.mydataDataSet1TableAdapters.RebExpensseTableTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Z_Apps.mydataDataSet1TableAdapters.SalePayMovementTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Z_Apps.mydataDataSet1TableAdapters.StocBalancetableTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Z_Apps.mydataDataSet1TableAdapters.DocNoTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Z_Apps.mydataDataSet1TableAdapters.StockQuaryTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Z_Apps.mydataDataSet1TableAdapters.StockDataTableTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Z_Apps.mydataDataSet1TableAdapters.CahfFlowTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Z_Apps.mydataDataSet1TableAdapters.CashFlowTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Z_Apps.mydataDataSet1TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:Z_Apps.mydataDataSet1TableAdapters.TableAdapterManager.UpdateUpdatedRows(Z_Apps.mydataDataSet1,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:Z_Apps.mydataDataSet1TableAdapters.TableAdapterManager.UpdateInsertedRows(Z_Apps.mydataDataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:Z_Apps.mydataDataSet1TableAdapters.TableAdapterManager.UpdateDeletedRows(Z_Apps.mydataDataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:Z_Apps.mydataDataSet1TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:Z_Apps.mydataDataSet1TableAdapters.TableAdapterManager.UpdateAll(Z_Apps.mydataDataSet1)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:Z_Apps.mydataDataSet1TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:Z_Apps.mydataDataSet1TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="M:Z_Apps.GetDataFromDataGrideView.GetDataFromDGV(System.Windows.Forms.DataGridView)">
+ <summary>
+ ويستخدم في الطباعة اول مرة data grid view هذا الاجراء يستخدم في اخذالبيانات من ال
+ </summary>
+ <param name="dg"></param>
+ <remarks></remarks>
+</member>
+<member name="P:Z_Apps.GetDataFromDataGrideView.DataHeadString">
+ <summary>
+ نص راس الجدول
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:Z_Apps.GetDataFromDataGrideView.#ctor">
+ <summary>
+ هذا التصنيف يقوم باخذ البيانات فقط وحساب الاعمدة و الصفوف فقط ولا يقوم بتحديد موضعها في الصفحة
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:Z_Apps.InvoicePrint.PageMargien">
+ <summary>
+ يحدد هوامش الصفحة
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:Z_Apps.InvoicePrint.PageArea">
+ <summary>
+ يحدد حدود التقرير يعني يطرح من الصفحة الهوامش
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:Z_Apps.InvoicePrint.FirstHeadArea">
+ <summary>
+ منطقة الراس الاولى
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:Z_Apps.InvoicePrint.SecondHeadArea">
+ <summary>
+  منطقة الراس الثانية
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:Z_Apps.InvoicePrint.BodyArea">
+ <summary>
+ حسم الفاتورة
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:Z_Apps.InvoicePrint.FoaterArea">
+ <summary>
+   منطقة الذيل 
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:Z_Apps.InvoicePrint.Markpart">
+ <summary>
+   جزء راس التقرير 
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:Z_Apps.MySimpleReport.MyPage">
+ <summary>
+ الصفحة المطلوب الرسم عليها
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:Z_Apps.MySimpleReport.topMargen">
+ <summary>
+ هامش اعلى الصفحة 
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:Z_Apps.MySimpleReport.leftMargen">
+ <summary>
+ هامش يسار الصفحة
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:Z_Apps.MySimpleReport.buttomMargen">
+ <summary>
+ لهامش اسفل الصفحة
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:Z_Apps.MySimpleReport.RightMargen">
+ <summary>
+ لهامش   يمين الصفحة
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:Z_Apps.MySimpleReport.TableFrame">
+ <summary>
+ شكل الاطار
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:Z_Apps.MySimpleReport.FramePen">
+ <summary>
+ قلم الاطار
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:Z_Apps.MySimpleReport.DrowFram(System.Drawing.Graphics,System.Int32,System.Int32,System.Int32,System.Int32)">
+ <summary>
+ رسم الاطار
+ </summary>
+ <param name="g">قلم الرسم</param>
+ <param name="x">X</param>
+ <param name="y">Y</param>
+ <param name="w">العرض</param>
+ <param name="h">الطول</param>
+ <remarks></remarks>
+</member>
+<member name="M:Z_Apps.MySimpleReport.DrowFram(System.Drawing.Graphics)">
+ <summary>
+ رسم الاطار بالاطوال الافتراضية
+ </summary>
+ <param name="g"></param>
+ <remarks></remarks>
+</member>
+<member name="M:Z_Apps.MySimpleReport.FramDestenation(System.Int32,System.Int32,System.Int32,System.Int32)">
+ <summary>
+ لحساب اطوال الجدول
+ </summary>
+ <param name="ftop">العلوي</param>
+ <param name="fleft">اليسار</param>
+ <param name="fhight">الارتفاع</param>
+ <param name="fwidth">العرض</param>
+ <remarks></remarks>
+</member>
+<member name="P:Z_Apps.MySimpleReport.CullomColor">
+ <summary>
+  لون الاعمدة
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:Z_Apps.MySimpleReport.RowColor">
+ <summary>
+  لون الاعمدة
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:Z_Apps.MySimpleReport.CulloumLineCount">
+ <summary>
+ عدد الاعمدة
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:Z_Apps.MySimpleReport.RowLineCount">
+ <summary>
+ عدد الصفوف
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:Z_Apps.MySimpleReport.cullomePen">
+ <summary>
+ قلم العمود
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:Z_Apps.MySimpleReport.rowPen">
+ <summary>
+ قلم الصف
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:Z_Apps.MySimpleReport.rowFeildMargen">
+ <summary>
+ الهامش بين الصفين
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:Z_Apps.MySimpleReport.cullomFeildMargen">
+ <summary>
+ الهامش بين العمودين
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="T:Z_Apps.MySimpleReport.line">
+ <summary>
+ الخط المستخدم في رسم العمود و الصف
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:Z_Apps.MySimpleReport.line.#ctor(System.Int32,System.Int32,System.Int32,System.Int32)">
+ <summary>
+ نقاط تحديد الخد المرسوم في الجدول
+ </summary>
+ <param name="x1">X1</param>
+ <param name="y1">Y1</param>
+ <param name="x2">X2</param>
+ <param name="y2">Y2</param>
+ <remarks></remarks>
+</member>
+<member name="M:Z_Apps.MySimpleReport.DrowRow(System.Drawing.Graphics)">
+ <summary>
+ رسم الصفوف
+ </summary>
+ <param name="g"></param>
+ <remarks></remarks>
+</member>
+<member name="M:Z_Apps.MySimpleReport.Drowcullome(System.Drawing.Graphics)">
+ <summary>
+ رسم العمود
+ </summary>
+ <param name="g"></param>
+ <remarks></remarks>
+</member>
+<member name="P:Z_Apps.MySimpleReport.headerMargen">
+ <summary>
+ الهامش في خانة راس العمود
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:Z_Apps.MySimpleReport.Headercolor1">
+ <summary>
+ اللون الطرفي في خالنة رأس الجدول  
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:Z_Apps.MySimpleReport.Headercolor2">
+ <summary>
+ اللون الطرفي في خالنة الوسطي الجدول 
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:Z_Apps.MySimpleReport.CurrentRow">
+ <summary>
+ حساب الصف الحالي
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:Z_Apps.MySimpleReport.culmefeildMargiene">
+ <summary>
+ هوامش الاعمدة التي في الداتا جريد
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:Z_Apps.MySimpleReport.hasMorPage">
+ <summary>
+ هل تحتاج لصفحة اخرى
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:Z_Apps.MySimpleReport.GetData_TableFlexadle">
+ <summary>
+  علمية اخذ البيانات من الداتا جريد    
+ </summary>
+</member>
+<member name="M:Z_Apps.MySimpleReport.NewPageRowcount">
+<summary>
+ حساب الصفوف في الصفحة الجديدة
+ </summary>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:Z_Apps.MySimpleReport.DefutlRowForPage">
+ <summary>
+ عدد الصفوف في الصحفة الواحدة
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:Z_Apps.MySimpleReport.DrowReport(System.Drawing.Graphics)">
+ <summary>
+ لرسم التقرير
+ </summary>
+ <param name="g"></param>
+ <remarks></remarks>
+</member>
+<member name="P:Z_Apps.MySimpleReport.TablesInPage">
+ <summary>
+ كم الجدول المرسوم في الصفحة
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:Z_Apps.MySimpleReport.PageHeaderRectangel">
+ <summary>
+ مربع رأس الصفحة
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:Z_Apps.MySimpleReport.PageFooterRectangel">
+ <summary>
+ مربع ذيل الصفحة
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:Z_Apps.MySimpleReport.setFooterRectangel(System.Int32,System.Int32,System.Int32,System.Int32)">
+ <summary>
+ عمل مربع في ذيل الصفحة
+ </summary>
+ <param name="x">اليسار</param>
+ <param name="y">الاعلى</param>
+ <param name="h">الطول</param>
+ <param name="w">العرض</param>
+ <remarks></remarks>
+</member>
+<member name="M:Z_Apps.MySimpleReport.defoultHeaderRectangel">
+ <summary>
+ الشكل الافتراضي لمربع رأس الصفحة
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:Z_Apps.MySimpleReport.defoultFooterRectangel">
+ <summary>
+ الشكل الافتراضي لمربع ذيل الصفحة
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:Z_Apps.MySimpleReport.PageFooterString">
+ <summary>
+ النص المكتوب في أول الصفحة
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:Z_Apps.MySimpleReport.PageheaderString">
+ <summary>
+ النص المكتوب في ذيل الصفحة
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:Z_Apps.MySimpleReport.Graphic">
+ <summary>
+ قلم رسم في الصفحة
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:Z_Apps.MySimpleReport.WtitePageHeaderString(System.Drawing.Graphics,System.String,System.Drawing.Font,System.Drawing.StringFormat,System.Drawing.SolidBrush)">
+ <summary>
+ كتابة النص
+ </summary>
+ <param name="s">النص</param>
+ <param name="f">الخص</param>
+ <param name="sf">شكل الخط</param>
+ <param name="color">لون النص</param>
+ <remarks></remarks>
+</member>
+<member name="M:Z_Apps.MySimpleReport.WtitePageFooterString(System.Drawing.Graphics,System.String,System.Drawing.Font,System.Drawing.StringFormat,System.Drawing.SolidBrush)">
+ <summary>
+   كتابة النص اسفل الصفحة
+ </summary>
+ <param name="s">النص</param>
+ <param name="f">الخص</param>
+ <param name="sf">شكل الخط</param>
+ <param name="color">لون النص</param>
+ <remarks></remarks>
+</member>
+<member name="F:Z_Apps.MySimpleReport.isgetDatagrideheigt">
+ <summary>
+ تستخدم لاختبار اذا تم تحديد ارتفاع جديد للجدول
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:Z_Apps.MySimpleReport.PageFooterColor">
+ <summary>
+لون نص الصفحة
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:Z_Apps.MySimpleReport.FontPageFooter">
+ <summary>
+خط نص راس الصفحة 
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:Z_Apps.MySimpleReport.PageFooterStringFormat">
+ <summary>
+ شكل نص راس الصفحة
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:Z_Apps.MySimpleReport.PageHeaderColor">
+ <summary>
+لون نص اعلى  الصفحة
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:Z_Apps.MySimpleReport.FontPageHeader">
+ <summary>
+خط نص راس الصفحة 
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:Z_Apps.MySimpleReport.PageHeaderStringFormat">
+ <summary>
+ شكل نص راس الصفحة
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:Z_Apps.MySimpleReport.ReportHeaderRectangel">
+ <summary>
+ مربع رأس التقرير
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:Z_Apps.MySimpleReport.ReportFooterRectangel">
+ <summary>
+ مربع ذيل التقرير
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:Z_Apps.MySimpleReport.setReportFooterRectangel(System.Int32,System.Int32,System.Int32,System.Int32)">
+ <summary>
+ عمل مربع في ذيل التقرير
+ </summary>
+ <param name="x">اليسار</param>
+ <param name="y">الاعلى</param>
+ <param name="h">الطول</param>
+ <param name="w">العرض</param>
+ <remarks></remarks>
+</member>
+<member name="M:Z_Apps.MySimpleReport.defoultReportHeaderRectangel">
+ <summary>
+ الشكل الافتراضي لمربع رأس التقرير
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:Z_Apps.MySimpleReport.defoultReportFooterRectangel">
+ <summary>
+ الشكل الافتراضي لمربع ذيل التقرير
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:Z_Apps.MySimpleReport.ReportFooterString">
+ <summary>
+ النص المكتوب في أول التقرير
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="F:Z_Apps.MySimpleReport.IsFirstPage">
+ <summary>
+ اختبار ادا كانت الصفحة المطبوعة اول الصفحة او اخر الصفحة
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:Z_Apps.MySimpleReport.IsLastPage">
+ <summary>
+ اختبار ادا كانت الصفحة المطبوعة اول الصفحة او اخر الصفحة
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:Z_Apps.MySimpleReport.ReportHeaderString">
+ <summary>
+ النص المكتوب في ذيل التقرير
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:Z_Apps.MySimpleReport.WtiteReportHeaderString(System.Drawing.Graphics,System.String,System.Drawing.Font,System.Drawing.StringFormat,System.Drawing.SolidBrush)">
+ <summary>
+ كتابة النص
+ </summary>
+ <param name="s">النص</param>
+ <param name="f">الخص</param>
+ <param name="sf">شكل الخط</param>
+ <param name="color">لون النص</param>
+ <remarks></remarks>
+</member>
+<member name="M:Z_Apps.MySimpleReport.WtiteReportFooterString(System.Drawing.Graphics,System.String,System.Drawing.Font,System.Drawing.StringFormat,System.Drawing.SolidBrush)">
+ <summary>
+   كتابة النص اسفل التقرير
+ </summary>
+ <param name="s">النص</param>
+ <param name="f">الخص</param>
+ <param name="sf">شكل الخط</param>
+ <param name="color">لون النص</param>
+ <remarks></remarks>
+</member>
+<member name="P:Z_Apps.MySimpleReport.ReportFooterColor">
+ <summary>
+لون نص التقرير
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:Z_Apps.MySimpleReport.FontReportFooter">
+ <summary>
+خط نص راس التقرير 
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:Z_Apps.MySimpleReport.ReportFooterStringFormat">
+ <summary>
+ شكل نص ذيل التقرير
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:Z_Apps.MySimpleReport.ReportHeaderColor">
+ <summary>
+لون نص اعلى  التقرير
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:Z_Apps.MySimpleReport.FontReportHeader">
+ <summary>
+خط نص راس التقرير 
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:Z_Apps.MySimpleReport.ReportHeaderStringFormat">
+ <summary>
+ شكل نص راس التقرير
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:Z_Apps.MySimpleReport.#ctor">
+ <summary>
+ استخراج تقرير جديد
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:Z_Apps.MySimpleReport.#ctor(System.Windows.Forms.DataGridView)">
+ <summary>
+ استخراج تقرير جديد
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:Z_Apps.MySimpleReport.Loading">
+ <summary>
+ تحميل بيانات التقرير
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:Z_Apps.MySimpleReport.SetStringAlighntpageHeader">
+ <summary>
+ وضع النص في رأس الصفحة
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:Z_Apps.MySimpleReport.SetStringAlighntPageFooter">
+ <summary>
+ وضع النص في ذيل الصفحة
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:Z_Apps.MySimpleReport.SetStringAlighntReportHeader">
+ <summary>
+ وضع النص في رأس التقرير
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:Z_Apps.MySimpleReport.SetStringAlighntReportFooter">
+ <summary>
+ وضع النص في ذيل التقرير
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:Z_Apps.MySimpleReport.DefoultPage">
+ <summary>
+ الشكل الافتراضي للصفحة
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:Z_Apps.MySimpleReport.MyNewpageMargine(System.Int32,System.Int32,System.Int32,System.Int32,System.Boolean)">
+ <summary>
+ تحديد هوامش الصفحة
+ </summary>
+ <param name="left">من اليسار </param>
+ <param name="right">من اليمين</param>
+ <param name="top">من الاعلى</param>
+ <param name="down">من السفل</param>
+ <param name="landscape">وضع الصفحة افقى ام عرضي</param>
+ <remarks></remarks>
+</member>
+<member name="M:Z_Apps.MySimpleReport.SetFramTablePen(System.Drawing.Drawing2D.DashCap,System.Int32,System.Drawing.Drawing2D.DashStyle,Z_Apps.MySimpleReport.doublelines)">
+ <summary>
+ عمل الجدول المشكل لأطارالصفحة
+ </summary>
+ <param name="DashCap"></param>
+ <param name="widfh"></param>
+ <param name="DashSteyt"></param>
+ <param name="doublLine"></param>
+ <remarks></remarks>
+</member>
+<member name="M:Z_Apps.MySimpleReport.Reload">
+ <summary>
+ اعادة تحميل
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:Z_Apps.MySimpleReport.SetFramReportPen(System.Drawing.Drawing2D.DashCap,System.Int32,System.Drawing.Drawing2D.DashStyle,Z_Apps.MySimpleReport.doublelines)">
+ <summary>
+ عمل الجدول المشكل لأطارالصفحة
+ </summary>
+ <param name="DashCap"></param>
+ <param name="widfh"></param>
+ <param name="DashSteyt"></param>
+ <param name="doublLine"></param>
+ <remarks></remarks>
+</member>
+<member name="M:Z_Apps.MySimpleReport.SetTableColor(System.Drawing.Color,System.Drawing.Color,System.Drawing.Color,System.Drawing.Color,System.Drawing.Color)">
+ <summary>
+ شكل الوان الخطوط المشكلة للجدول
+ </summary>
+ <param name="fc">اطار الجدول</param>
+ <param name="rc">صف الجدول</param>
+ <param name="cc"> عملو الجدول</param>
+ <param name="hcc">اللون الوسطي في رأس الجدول</param>
+ <param name="hcs">اللون الطرفي في رأس الجدول</param>
+ <remarks></remarks>
+</member>
+<member name="M:Z_Apps.MySimpleReport.SetRowPen(System.Drawing.Drawing2D.DashCap,System.Int32,System.Drawing.Drawing2D.DashStyle)">
+ <summary>
+ شكل الخط الفاصل بين الصفين
+ </summary>
+ <param name="DashCap"></param>
+ <param name="widfh"></param>
+ <param name="DashSteyt"></param>
+ <remarks></remarks>
+</member>
+<member name="M:Z_Apps.MySimpleReport.SetCullomPen(System.Drawing.Drawing2D.DashCap,System.Int32,System.Drawing.Drawing2D.DashStyle)">
+ <summary>
+ شكل الخط الفاصل بين العمودين
+ </summary>
+ <param name="DashCap"></param>
+ <param name="widfh"></param>
+ <param name="DashSteyt"></param>
+ <remarks></remarks>
+</member>
+<member name="M:Z_Apps.MySimpleReport.Drowtable(System.Drawing.Graphics)">
+ <summary>
+  رسم الجدول
+ </summary>
+ <param name="g"></param>
+ <remarks></remarks>
+</member>
+<member name="M:Z_Apps.MySimpleReport.SetTextFont(System.String,System.Int32,System.Drawing.FontStyle)">
+ <summary>
+ عمل خط في بيانات الجدول
+ </summary>
+ <param name="fonttype">اسم الخط</param>
+ <param name="size">حجم الخط</param>
+ <param name="fontStyl">الشكل</param>
+ <remarks></remarks>
+</member>
+<member name="M:Z_Apps.MySimpleReport.SetTextFont(System.Drawing.Font)">
+ <summary>
+ عمل خط في بيانات الجدول
+ </summary>
+ <param name="f"></param>
+ <remarks></remarks>
+</member>
+<member name="M:Z_Apps.MySimpleReport.SetTextFontWithDataGrid">
+ <summary>
+ عمل خط في بيانات الجدول
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:Z_Apps.MySimpleReport.SetFontcolor(System.Drawing.Color,System.Drawing.Color)">
+ <summary>
+ الوان الخطوط البيانات في الجدول
+ </summary>
+ <param name="fc">بيانات الجدول</param>
+ <param name="FHc">بيانات رأس عمود الجدول</param>
+ <remarks></remarks>
+</member>
+<member name="M:Z_Apps.MySimpleReport.SetTextHeaderFont(System.String,System.Int32,System.Drawing.FontStyle)">
+ <summary>
+ عمل خط في بيانات راس الجدول
+ </summary>
+ <param name="fonttype">اسم الخط</param>
+ <param name="size">حجم الخط</param>
+ <param name="fontStyl">الشكل</param>
+ <remarks></remarks>
+</member>
+<member name="M:Z_Apps.MySimpleReport.SetTextHeaderFont(System.Drawing.Font)">
+ <summary>
+ عمل خط في بيانات راس الجدول
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:Z_Apps.MySimpleReport.SetPageHeaderFont(System.String,System.Int32,System.Drawing.FontStyle)">
+ <summary>
+ عمل خط في رأس الصفحة
+ </summary>
+ <param name="fonttype">اسم الخط</param>
+ <param name="size">حجم الخط</param>
+ <param name="fontStyl">الشكل</param>
+ <remarks></remarks>
+</member>
+<member name="M:Z_Apps.MySimpleReport.setReportPageFont(System.Drawing.Font,System.Drawing.Font,System.Drawing.Font,System.Drawing.Font)">
+ <summary>
+ خطوط الرأس وذيل التقرير
+ </summary>
+ <param name="rhf">راس التقرير</param>
+ <param name="phf">راس الصفحة</param>
+ <param name="rff">ذيل التقرير</param>
+ <param name="pff">ذيل الصفحة</param>
+ <remarks></remarks>
+</member>
+<member name="M:Z_Apps.MySimpleReport.SetPageFooterFont(System.String,System.Int32,System.Drawing.FontStyle)">
+ <summary>
+ عمل خط في ذيل الصفحة
+ </summary>
+ <param name="fonttype">اسم الخط</param>
+ <param name="size">حجم الخط</param>
+ <param name="fontStyl">الشكل</param>
+ <remarks></remarks>
+</member>
+<member name="M:Z_Apps.MySimpleReport.SetReportFooterFont(System.String,System.Int32,System.Drawing.FontStyle)">
+ <summary>
+ عمل خط في رأس التقرير
+ </summary>
+ <param name="fonttype">اسم الخط</param>
+ <param name="size">حجم الخط</param>
+ <param name="fontStyl">الشكل</param>
+ <remarks></remarks>
+</member>
+<member name="M:Z_Apps.MySimpleReport.SetReportHeaderFont(System.String,System.Int32,System.Drawing.FontStyle)">
+ <summary>
+ عمل خط في رأس التقرير
+ </summary>
+ <param name="fonttype">اسم الخط</param>
+ <param name="size">حجم الخط</param>
+ <param name="fontStyl">الشكل</param>
+ <remarks></remarks>
+</member>
+<member name="M:Z_Apps.MySimpleReport.SetReportFontColor(System.Drawing.Color,System.Drawing.Color,System.Drawing.Color,System.Drawing.Color)">
+ <summary>
+ الوان الخطوط
+ </summary>
+ <param name="rhc">راس التقرير</param>
+ <param name="rfc">ذيل التقرير</param>
+ <param name="phc">راس الصفحة</param>
+ <param name="pfc">ذيل الصفحة</param>
+ <remarks></remarks>
+</member>
+<member name="M:Z_Apps.MySimpleReport.SetReportText(System.String,System.String)">
+ <summary>
+ ادخال النصوص رأس وذيل التقرير
+ </summary>
+ <param name="hs">الراس</param>
+ <param name="fs">الذيل</param>
+ <remarks></remarks>
+</member>
+<member name="M:Z_Apps.MySimpleReport.SetpageText(System.String,System.String)">
+ <summary>
+ ادخال النصوص رأس وذيل الصفحة
+ </summary>
+ <param name="hs">الراس</param>
+ <param name="fs">الذيل</param>
+ <remarks></remarks>
+</member>
+<member name="M:Z_Apps.MySimpleReport.SetFontReport">
+ <summary>
+ الخطوط الافتراضية
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:Z_Apps.MySimpleReport.SetMyStringAllighne(Z_Apps.MySimpleReport.myStingAllighin,Z_Apps.MySimpleReport.myStingAllighin,Z_Apps.MySimpleReport.myStingAllighin,Z_Apps.MySimpleReport.myStingAllighin)">
+ <summary>
+ وضع النصوص في التقرير
+ </summary>
+ <param name="rh">رأس التفرير</param>
+ <param name="rf">ذيل التقرير</param>
+ <param name="ph">راس الصفحة</param>
+ <param name="pf">ذيل الصفحة</param>
+ <remarks></remarks>
+</member>
+<member name="P:Z_Apps.MySimpleReport.MyImage">
+ <summary>
+ الشعار التي سيتم وضعه في التقرير
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:Z_Apps.MySimpleReport.MyImageRectangel">
+ <summary>
+ مربع اطار التقرير
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:Z_Apps.MySimpleReport.pictureWidth">
+ <summary>
+ عرض الاطار
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:Z_Apps.MySimpleReport.pictureLeft">
+ <summary>
+ شمال التقرير
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:Z_Apps.MySimpleReport.pictureTop">
+ <summary>
+ رأس الاطار
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:Z_Apps.MySimpleReport.pictureHight">
+ <summary>
+ ارتفاع الاطار
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:Z_Apps.MySimpleReport.DrowPicture(System.Drawing.Graphics)">
+ <summary>
+ رسم الصورة
+ </summary>
+ <param name="g"></param>
+ <remarks></remarks>
+</member>
+<member name="P:Z_Apps.MySimpleReport.MyImagePossion">
+ <summary>
+ لتحديدموقع الصورة في التقرير
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:Z_Apps.MySimpleReport.SetMyPicturePossion(Z_Apps.MySimpleReport.PicturePossion,System.Int32,System.Int32)">
+ <summary>
+ تحديد موقع الصورة في التقير
+ </summary>
+ <param name="p">مكان الصورة</param>
+ <param name="a">ازاحة</param>
+ <param name="w">العرض و الطول</param>
+ <remarks></remarks>
+</member>
+<member name="M:Z_Apps.MySimpleReport.SetImage(System.Drawing.Image)">
+ <summary>
+ اخذ الصورة
+ </summary>
+ <param name="img"></param>
+ <remarks></remarks>
+</member>
+<member name="F:Z_Apps.MySimpleReport.PicturePossion.UpRight">
+ <summary>
+ اعلى يمين
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:Z_Apps.MySimpleReport.PicturePossion.UpLeft">
+ <summary>
+ اعلى يسار
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:Z_Apps.MySimpleReport.PicturePossion.DownRight">
+ <summary>
+ اسفل يمين 
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:Z_Apps.MySimpleReport.PicturePossion.DownLeft">
+ <summary>
+ اسفل يسار
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:Z_Apps.MySimpleReport.ReportFrame">
+ <summary>
+ مربع البرواز
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:Z_Apps.MySimpleReport.ReportFramePen">
+ <summary>
+ قلم البرواز
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:Z_Apps.MySimpleReport.DrowReportFram(System.Drawing.Graphics)">
+ <summary>
+ رسم البرواز بالاطوال الافتراضية
+ </summary>
+ <param name="g"></param>
+ <remarks></remarks>
+</member>
+<member name="P:Z_Apps.MySimpleReport.DoubleReportline">
+ <summary>
+ هل يتم رسم البرواز بشكل مزدوج 
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:Z_Apps.MySimpleReport.ReportFrameColor">
+ <summary>
+ لون البرواز
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:Z_Apps.Pages.MyPage">
+ <summary>
+ شكل الصفحة
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:Z_Apps.Pages.PageMargien">
+ <summary>
+ يحدد هوامش الصفحة
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:Z_Apps.Pages.PageArea">
+ <summary>
+ يحدد حدود التقرير يعني يطرح من الصفحة الهوامش
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:Z_Apps.Pages.DefultPage">
+ <summary>
+ الشكل الافتراضي للصفحة
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:Z_Apps.Pages.PageSitting(System.Boolean,System.Int32,System.Int32,System.Int32,System.Int32)">
+ <summary>
+ تعديل في بعض الخصائص
+ </summary>
+ <param name="lan"></param>
+ <param name="b">الهامش السفلي</param>
+ <param name="t">الهامش العلوي</param>
+ <param name="l">الهامش اليساري</param>
+ <param name="r">الهامش اليميني</param>
+ <remarks></remarks>
+</member>
+<member name="P:Z_Apps.Pages.Details">
+ <summary>
+ تفاصيل التقرير
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:Z_Apps.Pages.FooterReport">
+ <summary>
+ ذيل  التقرير 
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:Z_Apps.Pages.FooterPage">
+ <summary>
+ ذيل الصفحة
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:Z_Apps.Pages.HeaderPage">
+ <summary>
+ راس الصفحة
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:Z_Apps.Pages.HeaderReport">
+ <summary>
+ راس التقرير
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:Z_Apps.Pages.HeaderReportOverPart">
+ <summary>
+الراس   فوق الجزء
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:Z_Apps.Pages.FooererReportOverPart">
+ <summary>
+الذيل   فوق الجزء
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:Z_Apps.Pages.isFramDouble">
+ <summary>
+ هل يتم رسم اطار مزدوج
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:Z_Apps.Pages.#ctor">
+ <summary>
+  هذا التصنيف مصمم لكي يكون هو  شكل  الصفحة الافتراضية قبل  تغيير  اي بيانات عليها 
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:Z_Apps.reportOverPart.ROPartFram">
+  """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+</member>
+<member name="P:Z_Apps.reportOverPart.ReportOverPartFrame">
+ <summary>
+ يحدد مربع الاطار في الجزء
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:Z_Apps.reportOverPart.isFramDouble">
+ <summary>
+ هل يتم رسم اطار مزدوج
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:Z_Apps.reportOverPart.isReportOverPart_Active">
+ <summary>
+ هل يتم تفعيله 
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:Z_Apps.reportOverPart.InternelRectangle">
+ <summary>
+ المساحة المطلوبة في التقرير 
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:Z_Apps.reportOverPart.FramColor">
+ <summary>
+ لون الاطار 
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:Z_Apps.reportOverPart.BackColor">
+ <summary>
+ تحدد لون خلفية الاطار
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:Z_Apps.reportOverPart.RightPart">
+ <summary>
+ القسم الايمن  للجزء
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:Z_Apps.reportOverPart.MiddelPart">
+ <summary>
+ القسم الاوسط للجزء
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:Z_Apps.reportOverPart.LeftPart">
+ <summary>
+ القسم الايسر  للجزء
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:Z_Apps.reportOverPart.RightPartRect">
+ <summary>
+ مربع القسم الايمن  للجزء
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:Z_Apps.reportOverPart.MiddelPartRect">
+ <summary>
+  مربع القسم الاوسط للجزء
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:Z_Apps.reportOverPart.LeftPartRect">
+ <summary>
+ مربع القسم الايسر  للجزء
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:Z_Apps.reportOverPart.SetRectPart(System.Drawing.Rectangle,System.Drawing.Brush,System.Drawing.Color,System.Int32,System.Boolean)">
+ <summary>
+ اعطاء البيانات الاساسية للمستطيل 
+ </summary>
+ <param name="rect">الاطوال</param>
+ <param name="bc">لون الخلفية</param>
+ <param name="c">لون االطار</param>
+ <param name="w">حجم خط الاطار</param>
+ <param name="isFdouble">هل الاطار مزدوج؟؟</param>
+ <remarks></remarks>
+</member>
+<member name="M:Z_Apps.reportOverPart.RightPartreCtSetting(System.Int32,System.Int32,System.Int32,System.Int32)">
+ <summary>
+ تحديد اطوال الجزء الايمن
+ </summary>
+ <param name="l">اليسار</param>
+ <param name="t">الاعلى</param>
+ <param name="h">الطول</param>
+ <param name="w">العرض</param>
+ <remarks></remarks>
+</member>
+<member name="M:Z_Apps.reportOverPart.medilPartreCtSetting(System.Int32,System.Int32,System.Int32,System.Int32)">
+ <summary>
+ تحديد اطوال الجزء الاوسط
+ </summary>
+ <param name="l">اليسار</param>
+ <param name="t">الاعلى</param>
+ <param name="h">الطول</param>
+ <param name="w">العرض</param>
+ <remarks></remarks>
+</member>
+<member name="M:Z_Apps.reportOverPart.leftPartreCtSetting(System.Int32,System.Int32,System.Int32,System.Int32)">
+ <summary>
+ تحديد اطوال الجزء الايسر
+ </summary>
+ <param name="l">اليسار</param>
+ <param name="t">الاعلى</param>
+ <param name="h">الطول</param>
+ <param name="w">العرض</param>
+ <remarks></remarks>
+</member>
+<member name="M:Z_Apps.reportOverPart.RightPartreCtSetting(System.Drawing.Rectangle)">
+ <summary>
+ تحديد اطوال الجزء الايمن
+ </summary>
+ <param name="rect">الاطوال</param>
+ <remarks></remarks>
+</member>
+<member name="M:Z_Apps.reportOverPart.MedellPartreCtSetting(System.Drawing.Rectangle)">
+ <summary>
+ تحديد اطوال الجزء الاوسط
+ </summary>
+ <param name="rect">الاطوال</param>
+ <remarks></remarks>
+</member>
+<member name="M:Z_Apps.reportOverPart.leftPartreCtSetting(System.Drawing.Rectangle)">
+ <summary>
+ تحديد اطوال الجزء الايسر
+ </summary>
+ <param name="rect">الاطوال</param>
+ <remarks></remarks>
+</member>
+<member name="M:Z_Apps.reportOverPart.RightPartreCtSetting(System.Drawing.Brush)">
+ <summary>
+ تحديد  لون الخلفية الجزء الايمن
+ </summary>
+ <param name="Bc">لون الخلفية</param>
+ <remarks></remarks>
+</member>
+<member name="M:Z_Apps.reportOverPart.MidelPartreCtSetting(System.Drawing.Brush)">
+ <summary>
+ تحديد  لون الخلفية الجزء الاوسط
+ </summary>
+ <param name="Bc">لون الخلفية</param>
+ <remarks></remarks>
+</member>
+<member name="M:Z_Apps.reportOverPart.leftPartreCtSetting(System.Drawing.Brush)">
+ <summary>
+ تحديد  لون الخلفية الجزء الايسر 
+ </summary>
+ <param name="Bc">لون الخلفية</param>
+ <remarks></remarks>
+</member>
+<member name="M:Z_Apps.reportOverPart.RightPartFramSetting(System.Drawing.Color,System.Single,System.Boolean)">
+ <summary>
+ لتحديد شكل الاطار للجزء الايمن
+ </summary>
+ <param name="c">اللون</param>
+ <param name="w">حجم الاطار</param>
+ <param name="isFdouble"></param>
+ <remarks></remarks>
+</member>
+<member name="M:Z_Apps.reportOverPart.MiddelPartFramSetting(System.Drawing.Color,System.Single,System.Boolean)">
+ <summary>
+ لتحديد شكل الاطار للجزء الاوسط
+ </summary>
+ <param name="c">اللون</param>
+ <param name="w">حجم الاطار</param>
+ <param name="isFdouble"></param>
+ <remarks></remarks>
+</member>
+<member name="M:Z_Apps.reportOverPart.LeftPartFramSetting(System.Drawing.Color,System.Single,System.Boolean)">
+ <summary>
+ لتحديد شكل الاطار للجزء الايسر
+ </summary>
+ <param name="c">اللون</param>
+ <param name="w">حجم الاطار</param>
+ <param name="isFdouble"></param>
+ <remarks></remarks>
+</member>
+<member name="M:Z_Apps.reportOverPart.RightPartSetText(System.String,Z_Apps.allinge)">
+ <summary>
+ تحديد النص وموقعه في الجزء الايمن
+ </summary>
+ <param name="txt"></param>
+ <param name="Alli"></param>
+ <remarks></remarks>
+</member>
+<member name="M:Z_Apps.reportOverPart.MiddelPartSetText(System.String,Z_Apps.allinge)">
+ <summary>
+ تحديد النص وموقعه في الجزء الاوسط
+ </summary>
+ <param name="txt"></param>
+ <param name="Alli"></param>
+ <remarks></remarks>
+</member>
+<member name="M:Z_Apps.reportOverPart.LeftPartSetText(System.String,Z_Apps.allinge)">
+ <summary>
+ تحديد النص وموقعه في الجزء الايسر
+ </summary>
+ <param name="txt"></param>
+ <param name="Alli"></param>
+ <remarks></remarks>
+</member>
+<member name="M:Z_Apps.reportOverPart.RightPartSetText(System.Drawing.Color,System.Drawing.Font)">
+ <summary>
+ تحديد  خط النص و لونه في الجزء الايمن
+ </summary>
+ <param name="c"></param>
+ <param name="f"></param>
+ <remarks></remarks>
+</member>
+<member name="M:Z_Apps.reportOverPart.MiddelPartSetText(System.Drawing.Color,System.Drawing.Font)">
+ <summary>
+ تحديد  خط النص و لونه في الجزء الاوسط
+ </summary>
+ <param name="c"></param>
+ <param name="f"></param>
+ <remarks></remarks>
+</member>
+<member name="M:Z_Apps.reportOverPart.LeftPartSetText(System.Drawing.Color,System.Drawing.Font)">
+ <summary>
+ تحديد  خط النص و لونه في الجزء الايسر
+ </summary>
+ <param name="c"></param>
+ <param name="f"></param>
+ <remarks></remarks>
+</member>
+<member name="M:Z_Apps.reportOverPart.RightPart_print(System.Drawing.Graphics,System.Boolean)">
+ <summary>
+ طباعة الجزء الايمن
+ </summary>
+ <param name="G"></param>
+ <param name="Mult"></param>
+ <remarks></remarks>
+</member>
+<member name="M:Z_Apps.reportOverPart.MiddelPart_print(System.Drawing.Graphics,System.Boolean)">
+ <summary>
+ طباعة الجزء الاوسط
+ </summary>
+ <param name="G"></param>
+ <param name="Mult"></param>
+ <remarks></remarks>
+</member>
+<member name="M:Z_Apps.reportOverPart.LeftPart_print(System.Drawing.Graphics,System.Boolean)">
+ <summary>
+ طباعة الجزء الايسر
+ </summary>
+ <param name="G"></param>
+ <param name="Mult"></param>
+ <remarks></remarks>
+</member>
+<member name="M:Z_Apps.reportOverPart.RoportOVerPart_Print(System.Drawing.Graphics)">
+ <summary>
+ طباعة 
+ </summary>
+ <param name="g"></param>
+ <remarks></remarks>
+</member>
+<member name="P:Z_Apps.reportPart.isFramDouble">
+ <summary>
+ هل يتم رسم اطار مزدوج
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:Z_Apps.reportPart.Rectangle">
+ <summary>
+ المساحة المطلوبة في التقرير 
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:Z_Apps.reportPart.InternelRectangle">
+ <summary>
+ المساحة المطلوبة في التقرير 
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:Z_Apps.reportPart.FramColor">
+ <summary>
+ لون الاطار 
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:Z_Apps.reportPart.BackColor">
+ <summary>
+ تحدد لون خلفية الاطار
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:Z_Apps.reportPart.StringX">
+ <summary>
+ موقع النص الافقي
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:Z_Apps.reportPart.Stringy">
+ <summary>
+ موقع النص الراسي
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:Z_Apps.reportPart.StringFont">
+ <summary>
+ شكل النص المكتوب داخل الاطار 
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:Z_Apps.reportPart.Is_DoubleLineString">
+ <summary>
+ هل يكتب النص على عدة اسطر ؟؟
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:Z_Apps.reportPart.reCtSetting(System.Drawing.Rectangle)">
+ <summary>
+  لتحديد المساحة
+ </summary>
+ <param name="rect"></param>
+ <remarks></remarks>
+</member>
+<member name="M:Z_Apps.reportPart.FramSetting(System.Drawing.Color,System.Single,System.Boolean)">
+ <summary>
+ لتحديد شكل الاطار
+ </summary>
+ <param name="c">اللون</param>
+ <param name="w">حجم الاطار</param>
+ <param name="isFdouble"></param>
+ <remarks></remarks>
+</member>
+<member name="M:Z_Apps.reportPart.FramSetting(System.Drawing.Pen)">
+ <summary>
+ لتحديد قلم رسم الاطار
+ </summary>
+ <param name="p"></param>
+ <remarks></remarks>
+</member>
+<member name="M:Z_Apps.reportPart.BackColorSetting(System.Drawing.Brush)">
+ <summary>
+ لتحديد لون الخلفية
+ </summary>
+ <param name="brush"></param>
+ <remarks></remarks>
+</member>
+<member name="M:Z_Apps.reportPart.SetText(System.String,Z_Apps.allinge)">
+ <summary>
+ لتحديد شكل النص
+ </summary>
+ <param name="txt"></param>
+ <param name="Alli"></param>
+ <remarks></remarks>
+</member>
+<member name="T:Z_Apps.StringFont">
+ <summary>
+ النص 
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:Z_Apps.StringFont.StringRect">
+ <summary>
+ يحدد المحيط الذي يكتب النص بداخله
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:Z_Apps.StringFont.text">
+ <summary>
+  النص
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:Z_Apps.StringFont.ForeColor">
+ <summary>
+ لون الخط
+
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:Z_Apps.ReportPrint.Pages">
+ <summary>
+ صفحات التقرير 
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:Z_Apps.ReportPrint.PageFormateSetting(System.Drawing.Brush,System.Drawing.Color,System.Single,System.Boolean)">
+ <summary>
+ شكل الصفحة من ناحية الالوان
+ </summary>
+ <param name="bc">الخلفية</param>
+ <param name="framC">لون البرواز</param>
+ <param name="w">عرض خط البرواز</param>
+ <param name="isdf">هل يطبع الخط مزدوج</param>
+ <remarks></remarks>
+</member>
+<member name="M:Z_Apps.ReportPrint.SetPage(System.Boolean,System.Int32,System.Int32,System.Int32,System.Int32)">
+ <summary>
+ تعديل في الصفحة
+ </summary>
+ <param name="lan">افقي ام راسي</param>
+ <param name="t">الهامش العلوي</param>
+ <param name="l">الهامش شمال الصفحة</param>
+ <param name="r">هامش يمين الصفحة</param>
+ <param name="b">هامش اسفل الصفحة</param>
+ <remarks></remarks>
+</member>
+<member name="P:Z_Apps.Table.TableStringFont">
+ <summary>
+ لتحديد نص خلايا الجدول
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:Z_Apps.Table.TableHeadStringFont">
+ <summary>
+ لتحديد نص راس الجدول
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:Z_Apps.Table.PrintMe">
+ <summary>
+ اطبعني
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:Z_Apps.Table.PrintMoreTable">
+ <summary>
+ طباعة جداول متعددة
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:Z_Apps.Table.TableFrame">
+ <summary>
+ اطار الجدول
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:Z_Apps.Table.MoreTableFrame">
+ <summary>
+ اطار الجدول
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:Z_Apps.Table.Column">
+ <summary>
+ الاعمدة
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:Z_Apps.Table.Row">
+ <summary>
+ الصفوف
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:Z_Apps.Table.RowHead">
+ <summary>
+ راس الجدول
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:Z_Apps.Table.RowCount">
+ <summary>
+ عدد الصفوف
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:Z_Apps.Table.ColumnCount">
+ <summary>
+ عدد الاعمدة
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:Z_Apps.Table.AllowArea">
+ <summary>
+ المنطقة المسموع بالطباعة بها
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="E:Z_Apps.DataPostionCode.movelast">
+ <summary>
+ اده تسهل للنقل بين السجلات وتتعامل مع  تصنيف الربط بالكود
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:Z_Apps.DataPostionCode.ButtonFareColor">
+ <summary> 
+ لون الخط للزر
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:Z_Apps.DataPostionCode.DataCode">
+ <summary> 
+ الربط بادة الكود
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:Z_Apps.DataPostionCode.pchang">
+ <summary>
+ اظها رقم السجل
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:Z_Apps.DataPostionCode.meloodcenter_color">
+ <summary> 
+ اللون ا لوسطي للزر في حالة التحميل
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:Z_Apps.DataPostionCode.meloodserruonding_color">
+ <summary> 
+ اللون ا الطرفي  للزر في حالة  التحميل
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:Z_Apps.DataPostionCode.buttonclick_center_color">
+ <summary> 
+ اللون ا لوسطي للزر في حالة نقر الزر
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:Z_Apps.DataPostionCode.buttonclick_surrounding_color">
+ <summary> 
+ اللون ا الطرفي  للزر في حالة نقر الزر
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:Z_Apps.DataPostionCode.font_color">
+ <summary> 
+ لون خط نص الزر
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:Z_Apps.DataPostionCode.font_color_Mousemove">
+ <summary> 
+  لون الخط للزر في حالةمرور الماوس
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:Z_Apps.DataPostionCode.font_color_Mouseclick">
+ <summary> 
+  لون الخط للزر في حالة نقر الزر
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:Z_Apps.DataPostionCode.mousemove_center_color">
+ <summary> 
+ اللون ا لوسطي للزر في حالة  مرور الماوس
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:Z_Apps.DataPostionCode.mousrmove_surronding_color">
+ <summary> 
+ اللون ا الطرفي  للزر في حالة  مرور الماوس
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:Z_Apps.DataPostionCode.Text">
+ <summary> 
+ عنوان الاداة
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:Z_Apps.DataPostionCode.ForeColor">
+ <summary> 
+ لون خط عنوان الاداة
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:Z_Apps.DataPostionCode.Font">
+ <summary> 
+  خط عنوان الاداه
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:Z_Apps.DataPostionCode.textfont">
+ <summary> 
+ عنوان الاداة
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:Z_Apps.DataPostionCode.GetT_buttonColor(ZeftawyTools.t_button)">
+ <summary>
+MyDesignForm تعديل الزر على اساس الزر في 
+ </summary>
+ <param name="b"></param>
+ <remarks></remarks>
+</member>
+<member name="M:Z_Apps.OLEdatabaseCodeing.Load(System.String,System.String,System.Windows.Forms.Control,System.String)">
+ <summary>
+ اجراء تحميل البيانات
+ </summary>
+ <param name="DataPath">مسار قاعدة البيانات</param>
+ <param name="Table">اسم الجدول</param>
+ <param name="ControlFram">الاطار يحمل الادوات</param>
+ <param name="Where">شرط الفلترة</param>
+ <remarks></remarks>
+</member>
+<member name="M:Z_Apps.OLEdatabaseCodeing.Load(System.String,System.String,System.String)">
+ <summary>
+ اجراء تحميل البيانات
+ </summary>
+ <param name="DataPath">مسار قاعدة البيانات</param>
+ <param name="Table">اسم الجدول</param>
+ <param name="Where">شرط الفلترة</param>
+ <remarks></remarks>
+</member>
+<member name="M:Z_Apps.OLEdatabaseCodeing.Load(System.String,System.String,Z_Apps.FieldMombers[],System.Windows.Forms.DataGridView,System.Int32,System.String)">
+ <summary>
+  تحميل البيانات باستخدام الهيكل كما يظهر البيانات في reader  
+ </summary>
+ <param name="Datapath">مسار القاعدة</param>
+ <param name="tablname">اسم الجدول</param>
+ <param name="tablC">هيكل الحقولFeildmimbers</param>
+ <param name="dgv">الداتا جريد</param>
+ <remarks></remarks>
+</member>
+<member name="M:Z_Apps.OLEdatabaseCodeing.Load(System.String,System.String,Z_Apps.FieldMombers[],System.Int32,System.String)">
+ <summary>
+ تحميل البيانات باستخدام الهيكل
+ </summary>
+ <param name="Datapath">مسار القاعدة</param>
+ <param name="tablname">اسم الجدول</param>
+ <param name="tablC">هيكل الحقولFeildmimbers</param>
+ <remarks></remarks>
+</member>
+<member name="M:Z_Apps.OLEdatabaseCodeing.reLoad">
+ <summary>
+ اجراء تحميل البيانات
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:Z_Apps.OLEdatabaseCodeing.EditMyTools(Z_Apps.FieldMombers[])">
+ <summary>
+ اجراء تحميل البيانات
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:Z_Apps.OLEdatabaseCodeing.controlFram">
+ <summary>
+ الاطار الذي نأخذ منه الجدول
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:Z_Apps.OLEdatabaseCodeing.ConnectToDataBase(System.String)">
+ <summary>
+ للاتصال بقاعدة البيانات
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:Z_Apps.OLEdatabaseCodeing.ConnectToDataBase">
+ <summary>
+  للاتصال بقاعدة البيانات من المستخدم
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:Z_Apps.OLEdatabaseCodeing.Tn">
+ <summary>
+ فلترة الجدول
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:Z_Apps.OLEdatabaseCodeing.TableName">
+ <summary>
+ كتابة اسم الجدول
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:Z_Apps.OLEdatabaseCodeing.CommedText(System.String,System.String)">
+ <summary>
+ كوماند تكست
+ </summary>
+ <param name="tn">ادخل اسم الجدول على انه نص</param>
+ <param name="Where">ادخل شرط الفلتره بلغة اس كيو ال</param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:Z_Apps.OLEdatabaseCodeing.SQL">
+ <summary>
+ جملة الاس كيو ال المستخدمة في الفلترة
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:Z_Apps.OLEdatabaseCodeing.gettable(System.String)">
+ <summary>
+ الوصول للجدول
+ </summary>
+ <param name="comtxt">نص لغة الاس كيو ال </param>
+ <remarks></remarks>
+</member>
+<member name="M:Z_Apps.OLEdatabaseCodeing.gettable(System.String,System.String)">
+ <summary>
+ الوصول للجدول
+ </summary>
+ <param name="tb">ادخل الجدول على انه نص</param>
+ <param name="where">شرط الفلترة على انها اس كيو ال </param>
+ <remarks></remarks>
+</member>
+<member name="M:Z_Apps.OLEdatabaseCodeing.DataShow">
+ <summary>
+ اظهار البيانات على الكونترول ويظهر كل الاعمدة
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:Z_Apps.OLEdatabaseCodeing.ShowDataValue(System.Int32)">
+ <summary>
+  ادخال البيانات على القيم
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:Z_Apps.OLEdatabaseCodeing.DataShow(System.Windows.Forms.Control)">
+ <summary>
+ و اظهار البيانات على الكونترول ويظهر كل الاعمدة ويظهرها على الكنترولز التي تظهر على الحاوي المطلوبة 
+ </summary>
+ <param name="f">حاوية</param>
+ <remarks></remarks>
+</member>
+<member name="M:Z_Apps.OLEdatabaseCodeing.DataShow(System.Windows.Forms.Control[],System.String[])">
+ <summary>
+ و اظهار البيانات على الكونترول ويظهر كل الاعمدة ويظهرها على الكنترولز التي تظهر على الحاوي المطلوبة 
+ </summary>
+ <param name="c">مصفوفة الادوات</param>
+ <param name="Feild">الحقول</param>
+ <remarks></remarks>
+</member>
+<member name="M:Z_Apps.OLEdatabaseCodeing.GetControl(System.Windows.Forms.Control)">
+ <summary>
+ معرفة كل الادوات التي في حاوي معين ك جروب بوكس او فورم 
+ </summary>
+ <param name="f">كونترول حاوي</param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:Z_Apps.OLEdatabaseCodeing.GetControl(Z_Apps.FieldMombers[])">
+ <summary>
+ ايجاد الادوات عن طريق الهيكل
+ </summary>
+ <param name="tablc">الهيكل</param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:Z_Apps.OLEdatabaseCodeing.GetShowedControl(Z_Apps.FieldMombers[])">
+ <summary>
+ ايجاد الادوات عن طريق الهيكل
+ </summary>
+ <param name="tablc">الهيكل</param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:Z_Apps.OLEdatabaseCodeing.GetfieldValue(Z_Apps.FieldMombers[])">
+ <summary>
+ ايجاد الادوات عن طريق الهيكل
+ </summary>
+ <param name="tablc">الهيكل</param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:Z_Apps.OLEdatabaseCodeing.MoveNext">
+ <summary>
+ سجل تالي
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:Z_Apps.OLEdatabaseCodeing.MovePriviose">
+ <summary>
+ سجل سابق
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:Z_Apps.OLEdatabaseCodeing.MoveTo(System.Int32)">
+ <summary>
+ الانتقال الى سجل رقم
+ </summary>
+ <param name="rowNomber">رقم السجل</param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:Z_Apps.OLEdatabaseCodeing.MoveFirst">
+ <summary>
+ اول سجل
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:Z_Apps.OLEdatabaseCodeing.MoveLast">
+ <summary>
+ اخر سجل
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:Z_Apps.OLEdatabaseCodeing.AddNew(Z_Apps.OLEdatabaseCodeing.AddnewInPrimary)">
+ <summary>
+ اضافة سجل جديد
+ </summary>
+ <param name="ss">تفويض يعمل على تغيير القيم تحت العمود الذي يحتويل على المفتاح الاساسي </param>
+ <remarks></remarks>
+</member>
+<member name="M:Z_Apps.OLEdatabaseCodeing.AddNew(System.Boolean)">
+ <summary>
+ سجل جديد
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:Z_Apps.OLEdatabaseCodeing.insert">
+ <summary>
+ تسجيل سجل جديد من خلال الادوات ومصفوفة الحقول
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:Z_Apps.OLEdatabaseCodeing.Gridinsert">
+ <summary>
+ تسجيل سجل جديد من خلال الادوات ومصفوفة الحقول
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:Z_Apps.OLEdatabaseCodeing.insert(System.String[],System.String[])">
+ <summary>
+ ادخال سجل جديد من خلال ادخال معامل مصفوفة حقول و مصفوفة نصوص
+ </summary>
+ <param name="Field">مصفوفة حقول</param>
+ <param name="Text">مصفوفة نصوص</param>
+ <remarks></remarks>
+</member>
+<member name="M:Z_Apps.OLEdatabaseCodeing.Edet">
+ <summary>
+ تعديل حقول
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:Z_Apps.OLEdatabaseCodeing.Edet(System.String[],System.String[])">
+ <summary>
+ تعديل حقول من خلال تمرير معاملات نصوص
+ </summary>
+ <param name="Feild">مصفوفة الحقول</param>
+ <param name="Text">مصفوفة النصوص</param>
+ <remarks></remarks>
+</member>
+<member name="M:Z_Apps.OLEdatabaseCodeing.Save(System.Boolean)">
+ <summary>
+ حفظ
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:Z_Apps.OLEdatabaseCodeing.SaveEdite(System.Boolean)">
+ <summary>
+ حفظ التعديلات
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:Z_Apps.OLEdatabaseCodeing.SaveInsert(System.Boolean)">
+ <summary>
+ حفظ اظافة جديد
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:Z_Apps.OLEdatabaseCodeing.SaveDelete(System.Boolean)">
+ <summary>
+ حفظ الحذف
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:Z_Apps.OLEdatabaseCodeing.getAllfieldName">
+ <summary>
+ لاخذ اسماء كل الحقول ووضعها في مصفوفة
+ </summary>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:Z_Apps.OLEdatabaseCodeing.getAllfieldCaption">
+ <summary>
+ لاخذ الاسماء المستعارة كل الحقول ووضعها في مصفوفة
+ </summary>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:Z_Apps.OLEdatabaseCodeing.FildsName">
+ <summary>
+ اخذ اسماء حقول معينة
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:Z_Apps.OLEdatabaseCodeing.Delete">
+ <summary>
+ حذف 
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:Z_Apps.OLEdatabaseCodeing.AddSerail">
+ <summary>
+ اضافة سيريل 
+ </summary>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:Z_Apps.OLEdatabaseCodeing.GetReader(System.String)">
+ <summary>
+ Reader
+ </summary>
+ <returns></returns>
+ <remarks></remarks> 
+</member>
+<member name="M:Z_Apps.OLEdatabaseCodeing.LoadByReader(System.String,System.Data.OleDb.OleDbConnection)">
+ <summary>
+ Reader
+ </summary>
+ <returns></returns>
+ <remarks></remarks> 
+</member>
+<member name="M:Z_Apps.OLEdatabaseCodeing.showDatabyDataReader">
+ <summary>
+ اظهار البيانات عبر الداتا جريد عن طريق الداتا ريدر
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:Z_Apps.OLEdatabaseCodeing.datagrideInserted">
+ <summary>
+ يستخدم في اخبار الداتا سيت انه تم اضافة حقل عن طريق الداتا جريد
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:Z_Apps.OLEdatabaseCodeing.datagrideDeleted">
+ <summary>
+ يستخدم في اخبار الداتا سيت انه تم حذف حقل عن طريق الداتا جريد
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:Z_Apps.OLEdatabaseCodeing.setDataGridViewuseDGVVisalbe(System.Windows.Forms.DataGridView)">
+ <summary>
+ بحيث انه يستلم الداتا جريد فاضي وهو اللي بيملاه Querys  هذا الاجراء يستخدم في الاستعلامات  
+ </summary>
+ <param name="dgv">ه</param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:Z_Apps.OLEdatabaseCodeing.isEdited">
+ <summary>
+ هل تم التعديل
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:Z_Apps.OLEdatabaseCodeing.Isinserted">
+ <summary>
+ تم ادخال جديد
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:Z_Apps.OLEdatabaseCodeing.isDeleted">
+ <summary>
+ تم ادخال تعديل 
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:Z_Apps.OLEdatabaseCodeing.DataGridveiw">
+ <summary>
+ datagridveiw 
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:Z_Apps.OLEdatabaseCodeing.rowNo">
+ <summary>
+ رقم السجل
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:Z_Apps.OLEdatabaseCodeing.Contronls">
+ <summary>
+  مصفوفة  المستخدمة في ادخال و تعديل البيانات
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:Z_Apps.OLEdatabaseCodeing.ShowedContronls">
+ <summary>
+  مصفوفة الادوات التي ستظهر البيانات
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:Z_Apps.OLEdatabaseCodeing.FieldValue">
+ <summary>
+ مصفوفة قيم الحقول
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:Z_Apps.OLEdatabaseCodeing.Dataset">
+ <summary>
+ Data Set Control
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:Z_Apps.OLEdatabaseCodeing.TableAdabtor">
+ <summary>
+ Table Adabtor Control
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:Z_Apps.OLEdatabaseCodeing.command">
+ <summary>
+ Command Control
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:Z_Apps.OLEdatabaseCodeing.DataTable">
+ <summary>
+ Data Table
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:Z_Apps.OLEdatabaseCodeing.DataRow">
+ <summary>
+ Data Row 
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:Z_Apps.OLEdatabaseCodeing.Row">
+ <summary>
+ dataRow
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:Z_Apps.OLEdatabaseCodeing.RowCount">
+ <summary>
+ dataRow
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:Z_Apps.OLEdatabaseCodeing.Datareader">
+ <summary>
+ reader
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:Z_Apps.OLEdatabaseCodeing.DataBasePath">
+ <summary>
+ مسار القاعدة 
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:Z_Apps.OLEdatabaseCodeing.showDatabyReader">
+ <summary>
+ اظهار البيانات عبر الداتا جريد عن طريق الداتا ريدر
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:Z_Apps.OLEdatabaseCodeing.showDatabyReader(System.Windows.Forms.DataGridView,System.Int32,System.Int32)">
+ <summary>
+ اظهار البيانات عبر الداتا جريد عن طريق الداتا ريدر
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:Z_Apps.OLEdatabaseCodeing.showDatabyReaderTocombobox(System.Windows.Forms.ComboBox,System.String,System.String,System.Data.OleDb.OleDbConnection)">
+ <summary>
+ ملئ الكومبوا بالبيانات
+ </summary>
+ <param name="combo">الكومبو</param>
+ <param name="field">اسم الحقل</param>
+ <param name="tab">اسم الجدول</param>
+ <param name="con">Connection</param>
+ <remarks></remarks>
+</member>
+<member name="M:Z_Apps.OLEdatabaseCodeing.showDatabyReaderTocombobox(System.Windows.Forms.ComboBox,System.String,System.Data.OleDb.OleDbConnection)">
+ <summary>
+ ملئ الكومبوا بالبيانات
+ </summary>
+ <param name="combo">الكومبو</param>
+ <param name="Sql">  SQL</param>
+ <param name="con">Connection</param>
+ <remarks></remarks>
+</member>
+<member name="M:Z_Apps.OLEdatabaseCodeing.showDatabyReaderToArray(System.String,System.String)">
+ <summary>
+ ملئ  مصفوفه بالبيانات
+ </summary>
+ <param name="Sql">  SQL</param>
+ <param name="con">Connection</param>
+ <remarks></remarks>
+</member>
+<member name="M:Z_Apps.OLEdatabaseCodeing.showDatabyReaderTolist(System.String,System.String)">
+ <summary>
+ ملئ  مصفوفه بالبيانات
+ </summary>
+ <param name="Sql">  SQL</param>
+ <param name="con">Connection</param>
+ <remarks></remarks>
+</member>
+<member name="M:Z_Apps.OLEdatabaseCodeing.showDatabyReaderTocombobox(System.Windows.Forms.ComboBox,System.String,System.String,System.String)">
+ <summary>
+ ملئ الكومبوا بالبيانات
+ </summary>
+ <param name="combo">الكومبو</param>
+ <param name="field">اسم الحقل</param>
+ <param name="tab">اسم الجدول</param>
+ <param name="con">Connection</param>
+ <remarks></remarks>
+</member>
+<member name="M:Z_Apps.OLEdatabaseCodeing.showDatabyReaderTocombobox(System.Windows.Forms.ComboBox,System.String)">
+ <summary>
+ ملئ الكومبوا بالبيانات
+ </summary>
+ <param name="combo">الكومبو</param>
+ <param name="Sql">  SQL</param>
+ <remarks></remarks>
+</member>
+<member name="M:Z_Apps.OLEdatabaseCodeing.showDataValuebyReader(System.String,System.Int32)">
+ <summary>
+ اظهار البيانات بقيمة واحدة فقط
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:Z_Apps.OLEdatabaseCodeing.GetReader(System.String,System.Data.OleDb.OleDbConnection)">
+ <summary>
+ Reader
+ </summary>
+ <returns></returns>
+ <remarks></remarks> 
+</member>
+<member name="M:Z_Apps.OLEdatabaseCodeing.loadQuarys(System.String,System.String,Z_Apps.FieldMombers[],System.Windows.Forms.DataGridView,System.String)">
+ <summary>
+  sum - GroubBy يستخدم في توليد جمل الاستعلام
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:Z_Apps.OLEdatabaseCodeing.AddSelectSQL(System.String,System.String,System.String)">
+ <summary>
+ هذا الاجراء يقوم بعمل جملة السليكت و يقوم ببناء الداتا جريد
+ </summary>
+ <param name="Selectsql"></param>
+ <param name="DatagrideCoulemsName"></param>
+ <param name="datagrideCulomnsHeads"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:Z_Apps.OLEdatabaseCodeing.SelectSQL(System.String,System.String,System.String)">
+ <summary>
+ هذا الاجراء يقوم بعمل جملة السليكت و يقوم ببناء الداتا جريد
+ </summary>
+ <param name="Ssql"></param>
+ <param name="DatagrideCoulemsName"></param>
+ <param name="datagrideCulomnsHeads"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:Z_Apps.OLEdatabaseCodeing.CopyPast_RowNoAdded">
+ <summary>
+ لكي يحدد مكان وقوف المؤشر بعد لصق الاضافة
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:Z_Apps.OLEdatabaseCodeing.CopyPase_openFile">
+ <summary>
+ فتح الملفات
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:Z_Apps.OLEdatabaseCodeing.CopyPase_PastNews(System.Int32)">
+ <summary>
+ لصق جديد
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:Z_Apps.OLEdatabaseCodeing.CopyPase_PastNew(System.Int32,System.Int32)">
+ <summary>
+ لصق جديد
+ </summary>
+ <param name="CollumNo">رقم العمود</param>
+ <param name="start">بداية النسخ</param>
+ <remarks></remarks>
+</member>
+<member name="M:Z_Apps.OLEdatabaseCodeing.CopyPase_PastNew(System.String,System.Int32)">
+ <summary>
+ لصق العمود
+ </summary>
+ <param name="collName">اسم العمود</param>
+ <param name="start"></param>
+ <remarks></remarks>
+</member>
+<member name="M:Z_Apps.OLEdatabaseCodeing.CopyPase_Past(System.String,System.Int32)">
+ <summary>
+ لصق  
+ </summary>
+ <param name="Collumname">اسم العمود</param>
+ <param name="start">بداية النسخ</param>
+ <remarks></remarks>
+</member>
+<member name="M:Z_Apps.OLEdatabaseCodeing.CopyPase_Pasts(System.Int32,System.Int32)">
+ <summary>
+ لصق  
+ </summary>
+ <param name="CollumNo"> رقم العمود</param>
+ <param name="start">بداية النسخ</param>
+ <remarks></remarks>
+</member>
+<member name="M:Z_Apps.OLEdatabaseCodeing.CopyPase_Past(System.Int32)">
+ <summary>
+ لصق  
+ </summary>
+ <param name="start">بداية النسخ</param>
+ <remarks></remarks>
+</member>
+<member name="M:Z_Apps.OLEdatabaseCodeing.CopyPase_Pastvalue(System.String,System.String,System.Int32)">
+ <summary>
+ بقيمة لصق  
+ </summary>
+ <param name="Collumname">اسم العمود</param>
+ <param name="start">بداية النسخ</param>
+ <remarks></remarks>
+</member>
+<member name="M:Z_Apps.OLEdatabaseCodeing.CopyPase_Pastvaluef(System.String,System.Int32,System.Int32)">
+ <summary>
+ لصق  
+ </summary>
+ <param name="CollumNo"> رقم العمود</param>
+ <param name="start">بداية النسخ</param>
+ <remarks></remarks>
+</member>
+<member name="M:Z_Apps.OLEdatabaseCodeing.CopyPase_Pastvalue(System.String,System.Int32)">
+ <summary>
+ لصق  
+ </summary>
+ <param name="start">بداية النسخ</param>
+ <remarks></remarks>
+</member>
+<member name="F:Z_Apps.FieldMombers.Name">
+ <summary>
+ اسم الحقل من قاعدة البيانات
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:Z_Apps.FieldMombers.Caption">
+ <summary>
+ الاسم الذي سيظهر في راس الداتا جريد او صندوق العنوان المجاور اداة الادخال
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:Z_Apps.FieldMombers.Control">
+ <summary>
+ الاداة المستخدمة في ادخال وعرض البيانات من الحقل
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:Z_Apps.FieldMombers.value">
+ <summary>
+ القيمة
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:Z_Apps.FieldMombers.isWanted">
+ <summary>
+ هل هي مطلوبة ؟؟ ودائما يستخدم في الجدول الذي فيه حقول كثيرة 
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:Z_Apps.FieldMombers.visable">
+ <summary>
+ هل سيتم اظهار بيانات الحقل على الادوات؟؟
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:Z_Apps.FieldMombers.DataType">
+ <summary>
+ نوع الحقل 
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:Z_Apps.FieldMombers.iskey">
+ <summary>
+ هل به المفتاح الاساسي
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:Z_Apps.FieldMombers.dgvVisalbe">
+ <summary>
+ هل سيتم اظهاره على الداتا جريد
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:Z_Apps.FieldMombers.IDF">
+ <summary>
+ رقم الحقل في الجدول
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:Z_Apps.FieldMombers.Values">
+ <summary>
+ مصفوفة بيانات الحقل من العمود
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:Z_Apps.FieldMombers.SQLFunction">
+ <summary>
+ هذه الخاصية تستخدم في الاستعلام باستخدام الدوال Sum()
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:Z_Apps.FieldMombers.isGroubBy">
+ <summary>
+ GroubBy تستخدم في الاستعلام لتوليد دالة 
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:Z_Apps.FieldMombers.where">
+ <summary>
+ SQLWhere تخص الحقل ففط
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:Z_Apps.FieldMombers.SelectSum">
+ <summary>
+ دالة الجمعة  Sql
+ </summary>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:Z_Apps.FieldMombers.#ctor(System.String)">
+ <summary>
+ تحميل عناصر الاساسية في الحقل 
+ </summary>
+ <param name="n">اسم الحقل</param>
+ <remarks></remarks>
+</member>
+<member name="F:Z_Apps.feildtyp.strings">
+ <summary>
+ بحث نصي
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:Z_Apps.feildtyp.simistring">
+ <summary>
+ بحث بجزئ من النص
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:Z_Apps.feildtyp.simistringBiganWith">
+ <summary>
+  بحث بجزئ من النص يبدأ بـ
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:Z_Apps.feildtyp.simistringEndWith">
+ <summary>
+  بحث بجزئ من النص ينتهي بـ
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:Z_Apps.feildtyp.intGreeterThan">
+ <summary>
+ بحث  برقم اكبر من
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:Z_Apps.feildtyp.intLowerThan">
+ <summary>
+بحث برقم اصغر
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:Z_Apps.feildtyp.int">
+ <summary>
+ بحث  رقم
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:Z_Apps.feildtyp.dates">
+ <summary>
+ بحث بتاريخ
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:Z_Apps.feildtyp.datesGreeterThan">
+ <summary>
+  بحث بتاريخ اكبر من
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:Z_Apps.feildtyp.datesLowerThan">
+ <summary>
+ بحث بتاريخ اصغر من
+ </summary>
+ <remarks></remarks>
+</member>
+</members>
+</doc>

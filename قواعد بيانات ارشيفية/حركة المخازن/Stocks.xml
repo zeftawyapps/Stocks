@@ -1,0 +1,555 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Stocks
+</name>
+</assembly>
+<members>
+<member name="P:Stocks.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:Stocks.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:Stocks.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="P:Stocks.AccountsClasse.GetAccount">
+	<summary>
+ لدمج الحسابات
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="T:Stocks.MovementDataSet.CahfFlowDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Stocks.MovementDataSet.CashAccDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Stocks.MovementDataSet.CleintAccDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Stocks.MovementDataSet.ClientTableDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Stocks.MovementDataSet.DataENameTableDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Stocks.MovementDataSet.mainSanftableDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Stocks.MovementDataSet.markadataDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Stocks.MovementDataSet.RebExpensseTableDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Stocks.MovementDataSet.StocBalancetableDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Stocks.MovementDataSet.StockDataTableDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Stocks.MovementDataSet.StooremovingDataDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Stocks.MovementDataSet.CahfFlowRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Stocks.MovementDataSet.CashAccRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Stocks.MovementDataSet.CleintAccRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Stocks.MovementDataSet.ClientTableRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Stocks.MovementDataSet.DataENameTableRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Stocks.MovementDataSet.mainSanftableRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Stocks.MovementDataSet.markadataRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Stocks.MovementDataSet.RebExpensseTableRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Stocks.MovementDataSet.StocBalancetableRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Stocks.MovementDataSet.StockDataTableRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Stocks.MovementDataSet.StooremovingDataRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Stocks.MovementDataSet.CahfFlowRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Stocks.MovementDataSet.CashAccRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Stocks.MovementDataSet.CleintAccRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Stocks.MovementDataSet.ClientTableRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Stocks.MovementDataSet.DataENameTableRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Stocks.MovementDataSet.mainSanftableRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Stocks.MovementDataSet.markadataRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Stocks.MovementDataSet.RebExpensseTableRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Stocks.MovementDataSet.StocBalancetableRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Stocks.MovementDataSet.StockDataTableRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Stocks.MovementDataSet.StooremovingDataRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Stocks.MovementDataSet">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Stocks.MovementDataSetTableAdapters.CahfFlowTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Stocks.MovementDataSetTableAdapters.CashAccTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Stocks.MovementDataSetTableAdapters.CleintAccTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Stocks.MovementDataSetTableAdapters.ClientTableTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Stocks.MovementDataSetTableAdapters.DataENameTableTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Stocks.MovementDataSetTableAdapters.mainSanftableTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Stocks.MovementDataSetTableAdapters.markadataTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Stocks.MovementDataSetTableAdapters.RebExpensseTableTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Stocks.MovementDataSetTableAdapters.StocBalancetableTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Stocks.MovementDataSetTableAdapters.StockDataTableTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Stocks.MovementDataSetTableAdapters.StooremovingDataTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:Stocks.MovementDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(Stocks.MovementDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:Stocks.MovementDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(Stocks.MovementDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:Stocks.MovementDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(Stocks.MovementDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:Stocks.MovementDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:Stocks.MovementDataSetTableAdapters.TableAdapterManager.UpdateAll(Stocks.MovementDataSet)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:Stocks.MovementDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:Stocks.MovementDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:Stocks.MovementDataSetTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:Stocks.CB_AccDataSet.AccNameDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Stocks.CB_AccDataSet.CashAccNameDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Stocks.CB_AccDataSet.ExpTypeDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Stocks.CB_AccDataSet.AccNameRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Stocks.CB_AccDataSet.CashAccNameRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Stocks.CB_AccDataSet.ExpTypeRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Stocks.CB_AccDataSet.AccNameRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Stocks.CB_AccDataSet.CashAccNameRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Stocks.CB_AccDataSet.ExpTypeRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Stocks.CB_AccDataSet">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Stocks.CB_AccDataSetTableAdapters.AccNameTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Stocks.CB_AccDataSetTableAdapters.CashAccNameTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Stocks.CB_AccDataSetTableAdapters.ExpTypeTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:Stocks.CB_AccDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(Stocks.CB_AccDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:Stocks.CB_AccDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(Stocks.CB_AccDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:Stocks.CB_AccDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(Stocks.CB_AccDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:Stocks.CB_AccDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:Stocks.CB_AccDataSetTableAdapters.TableAdapterManager.UpdateAll(Stocks.CB_AccDataSet)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:Stocks.CB_AccDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:Stocks.CB_AccDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:Stocks.CB_AccDataSetTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:Stocks.mydataDataSet1.ClientTableDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Stocks.mydataDataSet1.DataENameTableDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Stocks.mydataDataSet1.mainSanftableDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Stocks.mydataDataSet1.CleintAccDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Stocks.mydataDataSet1.markadataDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Stocks.mydataDataSet1.CahfFlowDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Stocks.mydataDataSet1.RebExpensseTableDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Stocks.mydataDataSet1.SalePayMovementDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Stocks.mydataDataSet1.StocBalancetableDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Stocks.mydataDataSet1.StockDataTableDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Stocks.mydataDataSet1.DocNoDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Stocks.mydataDataSet1.StockQuaryDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Stocks.mydataDataSet1.ClientTableRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Stocks.mydataDataSet1.DataENameTableRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Stocks.mydataDataSet1.mainSanftableRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Stocks.mydataDataSet1.CleintAccRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Stocks.mydataDataSet1.markadataRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Stocks.mydataDataSet1.CahfFlowRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Stocks.mydataDataSet1.RebExpensseTableRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Stocks.mydataDataSet1.SalePayMovementRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Stocks.mydataDataSet1.StocBalancetableRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Stocks.mydataDataSet1.StockDataTableRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Stocks.mydataDataSet1.DocNoRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Stocks.mydataDataSet1.StockQuaryRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Stocks.mydataDataSet1.ClientTableRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Stocks.mydataDataSet1.DataENameTableRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Stocks.mydataDataSet1.mainSanftableRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Stocks.mydataDataSet1.CleintAccRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Stocks.mydataDataSet1.markadataRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Stocks.mydataDataSet1.CahfFlowRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Stocks.mydataDataSet1.RebExpensseTableRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Stocks.mydataDataSet1.SalePayMovementRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Stocks.mydataDataSet1.StocBalancetableRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Stocks.mydataDataSet1.StockDataTableRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Stocks.mydataDataSet1.DocNoRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Stocks.mydataDataSet1.StockQuaryRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Stocks.mydataDataSet1">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Stocks.mydataDataSet1TableAdapters.ClientTableTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Stocks.mydataDataSet1TableAdapters.DataENameTableTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Stocks.mydataDataSet1TableAdapters.mainSanftableTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Stocks.mydataDataSet1TableAdapters.CleintAccTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Stocks.mydataDataSet1TableAdapters.markadataTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Stocks.mydataDataSet1TableAdapters.CahfFlowTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Stocks.mydataDataSet1TableAdapters.RebExpensseTableTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Stocks.mydataDataSet1TableAdapters.SalePayMovementTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Stocks.mydataDataSet1TableAdapters.StocBalancetableTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Stocks.mydataDataSet1TableAdapters.StockDataTableTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Stocks.mydataDataSet1TableAdapters.DocNoTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Stocks.mydataDataSet1TableAdapters.StockQuaryTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:Stocks.mydataDataSet1TableAdapters.TableAdapterManager.UpdateUpdatedRows(Stocks.mydataDataSet1,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:Stocks.mydataDataSet1TableAdapters.TableAdapterManager.UpdateInsertedRows(Stocks.mydataDataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:Stocks.mydataDataSet1TableAdapters.TableAdapterManager.UpdateDeletedRows(Stocks.mydataDataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:Stocks.mydataDataSet1TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:Stocks.mydataDataSet1TableAdapters.TableAdapterManager.UpdateAll(Stocks.mydataDataSet1)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:Stocks.mydataDataSet1TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:Stocks.mydataDataSet1TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:Stocks.mydataDataSet1TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+</members>
+</doc>

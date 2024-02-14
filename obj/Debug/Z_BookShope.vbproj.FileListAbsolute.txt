@@ -1,0 +1,238 @@
+E:\عمل\برامج تحت العمل\دسك توب\الحسابات\التطبيقات\Genral ACC\Shope\stocks\Stocks\Stocks\bin\Debug\Z_Apps.exe.config
+E:\عمل\برامج تحت العمل\دسك توب\الحسابات\التطبيقات\Genral ACC\Shope\stocks\Stocks\Stocks\obj\Debug\Z_Apps.exe
+E:\عمل\برامج تحت العمل\دسك توب\الحسابات\التطبيقات\Genral ACC\Shope\stocks\Stocks\Stocks\obj\Debug\Z_Apps.xml
+E:\عمل\برامج تحت العمل\دسك توب\الحسابات\التطبيقات\Genral ACC\Shope\stocks\Stocks\Stocks\obj\Debug\Z_Apps.pdb
+E:\عمل\برامج تحت العمل\دسك توب\الحسابات\التطبيقات\Genral ACC\Shope\stocks\Stocks\Stocks\bin\Debug\CB_Acc.accdb
+E:\عمل\برامج تحت العمل\دسك توب\الحسابات\التطبيقات\Genral ACC\Shope\stocks\Stocks\Stocks\bin\Debug\Movement.mdb
+E:\عمل\برامج تحت العمل\دسك توب\الحسابات\التطبيقات\Genral ACC\Shope\stocks\Stocks\Stocks\bin\Debug\mydata.mdb
+E:\عمل\برامج تحت العمل\دسك توب\الحسابات\التطبيقات\Genral ACC\Shope\stocks\Stocks\Stocks\bin\Debug\Z_Apps.exe
+E:\عمل\برامج تحت العمل\دسك توب\الحسابات\التطبيقات\Genral ACC\Shope\stocks\Stocks\Stocks\bin\Debug\Z_Apps.pdb
+E:\عمل\برامج تحت العمل\دسك توب\الحسابات\التطبيقات\Genral ACC\Shope\stocks\Stocks\Stocks\bin\Debug\Z_Apps.xml
+E:\عمل\برامج تحت العمل\دسك توب\الحسابات\التطبيقات\Genral ACC\Shope\stocks\Stocks\Stocks\bin\Debug\ZeftawyTools.dll
+E:\عمل\برامج تحت العمل\دسك توب\الحسابات\التطبيقات\Genral ACC\Shope\stocks\Stocks\Stocks\bin\Debug\ZeftawyTools.pdb
+E:\عمل\برامج تحت العمل\دسك توب\الحسابات\التطبيقات\Genral ACC\Shope\stocks\Stocks\Stocks\bin\Debug\ZeftawyTools.xml
+E:\عمل\برامج تحت العمل\دسك توب\الحسابات\التطبيقات\Genral ACC\Shope\stocks\Stocks\Stocks\obj\Debug\ResolveAssemblyReference.cache
+E:\عمل\برامج تحت العمل\دسك توب\الحسابات\التطبيقات\Genral ACC\Shope\stocks\Stocks\Stocks\obj\Debug\Z_Apps.DesgineFrm.resources
+E:\عمل\برامج تحت العمل\دسك توب\الحسابات\التطبيقات\Genral ACC\Shope\stocks\Stocks\Stocks\obj\Debug\Z_Apps.AoutoEnterStockDataBookShopefrm.resources
+E:\عمل\برامج تحت العمل\دسك توب\الحسابات\التطبيقات\Genral ACC\Shope\stocks\Stocks\Stocks\obj\Debug\Z_Apps.AoutoEnterStockDataShopefrm.resources
+E:\عمل\برامج تحت العمل\دسك توب\الحسابات\التطبيقات\Genral ACC\Shope\stocks\Stocks\Stocks\obj\Debug\Z_Apps.StockDataMarket.resources
+E:\عمل\برامج تحت العمل\دسك توب\الحسابات\التطبيقات\Genral ACC\Shope\stocks\Stocks\Stocks\obj\Debug\Z_Apps.StockDataShopeingfr.resources
+E:\عمل\برامج تحت العمل\دسك توب\الحسابات\التطبيقات\Genral ACC\Shope\stocks\Stocks\Stocks\obj\Debug\Z_Apps.DataChoseFrm.resources
+E:\عمل\برامج تحت العمل\دسك توب\الحسابات\التطبيقات\Genral ACC\Shope\stocks\Stocks\Stocks\obj\Debug\Z_Apps.DesigneControlFrm.resources
+E:\عمل\برامج تحت العمل\دسك توب\الحسابات\التطبيقات\Genral ACC\Shope\stocks\Stocks\Stocks\obj\Debug\Z_Apps.logeinFrm.resources
+E:\عمل\برامج تحت العمل\دسك توب\الحسابات\التطبيقات\Genral ACC\Shope\stocks\Stocks\Stocks\obj\Debug\Z_Apps.PowersFrm.resources
+E:\عمل\برامج تحت العمل\دسك توب\الحسابات\التطبيقات\Genral ACC\Shope\stocks\Stocks\Stocks\obj\Debug\Z_Apps.RunTimeColorPorperty.resources
+E:\عمل\برامج تحت العمل\دسك توب\الحسابات\التطبيقات\Genral ACC\Shope\stocks\Stocks\Stocks\obj\Debug\Z_Apps.ClientSupplierAccfrm.resources
+E:\عمل\برامج تحت العمل\دسك توب\الحسابات\التطبيقات\Genral ACC\Shope\stocks\Stocks\Stocks\obj\Debug\Z_Apps.ExpRevFrm.resources
+E:\عمل\برامج تحت العمل\دسك توب\الحسابات\التطبيقات\Genral ACC\Shope\stocks\Stocks\Stocks\obj\Debug\Z_Apps.MarketMove.resources
+E:\عمل\برامج تحت العمل\دسك توب\الحسابات\التطبيقات\Genral ACC\Shope\stocks\Stocks\Stocks\obj\Debug\Z_Apps.TestPrint.resources
+E:\عمل\برامج تحت العمل\دسك توب\الحسابات\التطبيقات\Genral ACC\Shope\stocks\Stocks\Stocks\obj\Debug\Z_Apps.CashFlowQfrm.resources
+E:\عمل\برامج تحت العمل\دسك توب\الحسابات\التطبيقات\Genral ACC\Shope\stocks\Stocks\Stocks\obj\Debug\Z_Apps.ClientBalanceFrm.resources
+E:\عمل\برامج تحت العمل\دسك توب\الحسابات\التطبيقات\Genral ACC\Shope\stocks\Stocks\Stocks\obj\Debug\Z_Apps.MarketBalanceFrm.resources
+E:\عمل\برامج تحت العمل\دسك توب\الحسابات\التطبيقات\Genral ACC\Shope\stocks\Stocks\Stocks\obj\Debug\Z_Apps.smallQfrm.resources
+E:\عمل\برامج تحت العمل\دسك توب\الحسابات\التطبيقات\Genral ACC\Shope\stocks\Stocks\Stocks\obj\Debug\Z_Apps.StockMovementQuary.resources
+E:\عمل\برامج تحت العمل\دسك توب\الحسابات\التطبيقات\Genral ACC\Shope\stocks\Stocks\Stocks\obj\Debug\Z_Apps.MainMenuefrm.resources
+E:\عمل\برامج تحت العمل\دسك توب\الحسابات\التطبيقات\Genral ACC\Shope\stocks\Stocks\Stocks\obj\Debug\Z_Apps.Startfrm.resources
+E:\عمل\برامج تحت العمل\دسك توب\الحسابات\التطبيقات\Genral ACC\Shope\stocks\Stocks\Stocks\obj\Debug\Z_Apps.Welcomeform.resources
+E:\عمل\برامج تحت العمل\دسك توب\الحسابات\التطبيقات\Genral ACC\Shope\stocks\Stocks\Stocks\obj\Debug\Z_Apps.CashFlowfrm.resources
+E:\عمل\برامج تحت العمل\دسك توب\الحسابات\التطبيقات\Genral ACC\Shope\stocks\Stocks\Stocks\obj\Debug\Z_Apps.StockDataBookShopsFrm.resources
+E:\عمل\برامج تحت العمل\دسك توب\الحسابات\التطبيقات\Genral ACC\Shope\stocks\Stocks\Stocks\obj\Debug\Z_Apps.mainStnfFrm.resources
+E:\عمل\برامج تحت العمل\دسك توب\الحسابات\التطبيقات\Genral ACC\Shope\stocks\Stocks\Stocks\obj\Debug\Z_Apps.DataEpFrm.resources
+E:\عمل\برامج تحت العمل\دسك توب\الحسابات\التطبيقات\Genral ACC\Shope\stocks\Stocks\Stocks\obj\Debug\Z_Apps.CleintData.resources
+E:\عمل\برامج تحت العمل\دسك توب\الحسابات\التطبيقات\Genral ACC\Shope\stocks\Stocks\Stocks\obj\Debug\Z_Apps.StockMove.resources
+E:\عمل\برامج تحت العمل\دسك توب\الحسابات\التطبيقات\Genral ACC\Shope\stocks\Stocks\Stocks\obj\Debug\Z_Apps.TrailBalanceFrm.resources
+E:\عمل\برامج تحت العمل\دسك توب\الحسابات\التطبيقات\Genral ACC\Shope\stocks\Stocks\Stocks\obj\Debug\Z_Apps.t_lableButton.resources
+E:\عمل\برامج تحت العمل\دسك توب\الحسابات\التطبيقات\Genral ACC\Shope\stocks\Stocks\Stocks\obj\Debug\Z_Apps.Resources.resources
+E:\عمل\برامج تحت العمل\دسك توب\الحسابات\التطبيقات\Genral ACC\Shope\stocks\Stocks\Stocks\obj\Debug\Z_Apps.QueryBookShopfrm.resources
+E:\عمل\برامج تحت العمل\دسك توب\الحسابات\التطبيقات\Genral ACC\Shope\stocks\Stocks\Stocks\obj\Debug\Z_Apps.test.resources
+E:\عمل\برامج تحت العمل\دسك توب\الحسابات\التطبيقات\Genral ACC\Shope\stocks\Stocks\Stocks\obj\Debug\Z_Apps.DataPostionCode.resources
+E:\عمل\برامج تحت العمل\دسك توب\الحسابات\التطبيقات\Genral ACC\Shope\stocks\Stocks\Stocks\obj\Debug\GenerateResource-ResGen.read.1.tlog
+E:\عمل\برامج تحت العمل\دسك توب\الحسابات\التطبيقات\Genral ACC\Shope\stocks\Stocks\Stocks\obj\Debug\GenerateResource-ResGen.write.1.tlog
+E:\عمل\برامج تحت العمل\دسك توب\الحسابات\التطبيقات\Genral ACC\Shope\stocks\Stocks\Stocks\obj\Debug\GenerateResource.write.196.tlog
+E:\عمل\برامج تحت العمل\دسك توب\الحسابات\التطبيقات\Genral ACC\Shope\stocks\Stocks\Stocks\obj\Debug\GenerateResource.write.197.tlog
+E:\عمل\برامج تحت العمل\دسك توب\الحسابات\التطبيقات\Genral ACC\Shope\stocks\Stocks\Stocks\obj\Debug\GenerateResource.write.200.tlog
+E:\عمل\برامج تحت العمل\دسك توب\الحسابات\التطبيقات\Genral ACC\Shope\stocks\Stocks\Stocks\obj\Debug\GenerateResource.write.209.tlog
+E:\عمل\برامج تحت العمل\دسك توب\الحسابات\التطبيقات\Genral ACC\Shope\stocks\Stocks\Stocks\obj\Debug\GenerateResource.write.210.tlog
+E:\عمل\برامج تحت العمل\دسك توب\الحسابات\التطبيقات\Genral ACC\Shope\stocks\Stocks\Stocks\obj\Debug\GenerateResource.write.211.tlog
+E:\عمل\برامج تحت العمل\دسك توب\الحسابات\التطبيقات\Genral ACC\Shope\stocks\Stocks\Stocks\obj\Debug\GenerateResource.write.212.tlog
+E:\عمل\برامج تحت العمل\دسك توب\الحسابات\التطبيقات\Genral ACC\Shope\stocks\Stocks\Stocks\obj\Debug\GenerateResource.write.214.tlog
+E:\عمل\برامج تحت العمل\دسك توب\الحسابات\التطبيقات\Genral ACC\Shope\stocks\Stocks\Stocks\obj\Debug\GenerateResource.write.215.tlog
+E:\عمل\برامج تحت العمل\دسك توب\الحسابات\التطبيقات\Genral ACC\Shope\stocks\Stocks\Stocks\obj\Debug\GenerateResource.write.217.tlog
+E:\عمل\برامج تحت العمل\دسك توب\الحسابات\التطبيقات\Genral ACC\Shope\stocks\Stocks\Stocks\obj\Debug\GenerateResource.write.218.tlog
+E:\عمل\برامج تحت العمل\دسك توب\الحسابات\التطبيقات\Genral ACC\Shope\stocks\Stocks\Stocks\obj\Debug\GenerateResource.write.286.tlog
+E:\عمل\برامج تحت العمل\دسك توب\الحسابات\التطبيقات\Genral ACC\Shope\stocks\Stocks\Stocks\obj\Debug\GenerateResource.write.288.tlog
+E:\عمل\برامج تحت العمل\دسك توب\الحسابات\التطبيقات\Genral ACC\Shope\stocks\Stocks\Stocks\obj\Debug\GenerateResource.write.354.tlog
+E:\عمل\برامج تحت العمل\دسك توب\الحسابات\التطبيقات\Genral ACC\Shope\stocks\Stocks\Stocks\obj\Debug\GenerateResource.write.359.tlog
+E:\عمل\برامج تحت العمل\دسك توب\الحسابات\التطبيقات\Genral ACC\Shope\stocks\Stocks\Stocks\obj\Debug\GenerateResource.write.409.tlog
+E:\عمل\برامج تحت العمل\دسك توب\الحسابات\التطبيقات\Genral ACC\Shope\stocks\Stocks\Stocks\obj\Debug\GenerateResource.write.411.tlog
+E:\عمل\برامج تحت العمل\دسك توب\الحسابات\التطبيقات\Genral ACC\Shope\stocks\Stocks\Stocks\obj\Debug\GenerateResource.write.415.tlog
+E:\عمل\برامج تحت العمل\دسك توب\الحسابات\التطبيقات\Genral ACC\Shope\stocks\Stocks\Stocks\obj\Debug\GenerateResource.write.417.tlog
+D:\برمجة\تطبيقات\Shope\stocks\Stocks\Stocks\bin\Debug\CB_Acc.accdb
+D:\برمجة\تطبيقات\Shope\stocks\Stocks\Stocks\bin\Debug\Movement.mdb
+D:\برمجة\تطبيقات\Shope\stocks\Stocks\Stocks\bin\Debug\mydata.mdb
+D:\برمجة\تطبيقات\Shope\stocks\Stocks\Stocks\bin\Debug\Z_Apps.exe.config
+D:\برمجة\تطبيقات\Shope\stocks\Stocks\Stocks\bin\Debug\Z_Apps.exe
+D:\برمجة\تطبيقات\Shope\stocks\Stocks\Stocks\bin\Debug\Z_Apps.pdb
+D:\برمجة\تطبيقات\Shope\stocks\Stocks\Stocks\bin\Debug\Z_Apps.xml
+D:\برمجة\تطبيقات\Shope\stocks\Stocks\Stocks\bin\Debug\ZeftawyTools.dll
+D:\برمجة\تطبيقات\Shope\stocks\Stocks\Stocks\bin\Debug\ZeftawyTools.pdb
+D:\برمجة\تطبيقات\Shope\stocks\Stocks\Stocks\bin\Debug\ZeftawyTools.xml
+D:\برمجة\تطبيقات\Shope\stocks\Stocks\Stocks\obj\Debug\ResolveAssemblyReference.cache
+D:\برمجة\تطبيقات\Shope\stocks\Stocks\Stocks\obj\Debug\Z_Apps.DesgineFrm.resources
+D:\برمجة\تطبيقات\Shope\stocks\Stocks\Stocks\obj\Debug\Z_Apps.AoutoEnterStockDataBookShopefrm.resources
+D:\برمجة\تطبيقات\Shope\stocks\Stocks\Stocks\obj\Debug\Z_Apps.AoutoEnterStockDataShopefrm.resources
+D:\برمجة\تطبيقات\Shope\stocks\Stocks\Stocks\obj\Debug\Z_Apps.StockDataMarket.resources
+D:\برمجة\تطبيقات\Shope\stocks\Stocks\Stocks\obj\Debug\Z_Apps.StockDataShopeingfr.resources
+D:\برمجة\تطبيقات\Shope\stocks\Stocks\Stocks\obj\Debug\Z_Apps.DataChoseFrm.resources
+D:\برمجة\تطبيقات\Shope\stocks\Stocks\Stocks\obj\Debug\Z_Apps.DesigneControlFrm.resources
+D:\برمجة\تطبيقات\Shope\stocks\Stocks\Stocks\obj\Debug\Z_Apps.logeinFrm.resources
+D:\برمجة\تطبيقات\Shope\stocks\Stocks\Stocks\obj\Debug\Z_Apps.PowersFrm.resources
+D:\برمجة\تطبيقات\Shope\stocks\Stocks\Stocks\obj\Debug\Z_Apps.RunTimeColorPorperty.resources
+D:\برمجة\تطبيقات\Shope\stocks\Stocks\Stocks\obj\Debug\Z_Apps.ClientSupplierAccfrm.resources
+D:\برمجة\تطبيقات\Shope\stocks\Stocks\Stocks\obj\Debug\Z_Apps.ExpRevFrm.resources
+D:\برمجة\تطبيقات\Shope\stocks\Stocks\Stocks\obj\Debug\Z_Apps.MarketMove.resources
+D:\برمجة\تطبيقات\Shope\stocks\Stocks\Stocks\obj\Debug\Z_Apps.TestPrint.resources
+D:\برمجة\تطبيقات\Shope\stocks\Stocks\Stocks\obj\Debug\Z_Apps.CashFlowQfrm.resources
+D:\برمجة\تطبيقات\Shope\stocks\Stocks\Stocks\obj\Debug\Z_Apps.ClientBalanceFrm.resources
+D:\برمجة\تطبيقات\Shope\stocks\Stocks\Stocks\obj\Debug\Z_Apps.MarketBalanceFrm.resources
+D:\برمجة\تطبيقات\Shope\stocks\Stocks\Stocks\obj\Debug\Z_Apps.smallQfrm.resources
+D:\برمجة\تطبيقات\Shope\stocks\Stocks\Stocks\obj\Debug\Z_Apps.StockMovementQuary.resources
+D:\برمجة\تطبيقات\Shope\stocks\Stocks\Stocks\obj\Debug\Z_Apps.MainMenuefrm.resources
+D:\برمجة\تطبيقات\Shope\stocks\Stocks\Stocks\obj\Debug\Z_Apps.Startfrm.resources
+D:\برمجة\تطبيقات\Shope\stocks\Stocks\Stocks\obj\Debug\Z_Apps.Welcomeform.resources
+D:\برمجة\تطبيقات\Shope\stocks\Stocks\Stocks\obj\Debug\Z_Apps.CashFlowfrm.resources
+D:\برمجة\تطبيقات\Shope\stocks\Stocks\Stocks\obj\Debug\Z_Apps.StockDataBookShopsFrm.resources
+D:\برمجة\تطبيقات\Shope\stocks\Stocks\Stocks\obj\Debug\Z_Apps.mainStnfFrm.resources
+D:\برمجة\تطبيقات\Shope\stocks\Stocks\Stocks\obj\Debug\Z_Apps.DataEpFrm.resources
+D:\برمجة\تطبيقات\Shope\stocks\Stocks\Stocks\obj\Debug\Z_Apps.CleintData.resources
+D:\برمجة\تطبيقات\Shope\stocks\Stocks\Stocks\obj\Debug\Z_Apps.StockMove.resources
+D:\برمجة\تطبيقات\Shope\stocks\Stocks\Stocks\obj\Debug\Z_Apps.TrailBalanceFrm.resources
+D:\برمجة\تطبيقات\Shope\stocks\Stocks\Stocks\obj\Debug\Z_Apps.t_lableButton.resources
+D:\برمجة\تطبيقات\Shope\stocks\Stocks\Stocks\obj\Debug\Z_Apps.Resources.resources
+D:\برمجة\تطبيقات\Shope\stocks\Stocks\Stocks\obj\Debug\Z_Apps.QueryBookShopfrm.resources
+D:\برمجة\تطبيقات\Shope\stocks\Stocks\Stocks\obj\Debug\Z_Apps.test.resources
+D:\برمجة\تطبيقات\Shope\stocks\Stocks\Stocks\obj\Debug\Z_Apps.DataPostionCode.resources
+D:\برمجة\تطبيقات\Shope\stocks\Stocks\Stocks\obj\Debug\GenerateResource-ResGen.read.1.tlog
+D:\برمجة\تطبيقات\Shope\stocks\Stocks\Stocks\obj\Debug\GenerateResource-ResGen.write.1.tlog
+D:\برمجة\تطبيقات\Shope\stocks\Stocks\Stocks\obj\Debug\GenerateResource.write.196.tlog
+D:\برمجة\تطبيقات\Shope\stocks\Stocks\Stocks\obj\Debug\GenerateResource.write.197.tlog
+D:\برمجة\تطبيقات\Shope\stocks\Stocks\Stocks\obj\Debug\GenerateResource.write.200.tlog
+D:\برمجة\تطبيقات\Shope\stocks\Stocks\Stocks\obj\Debug\GenerateResource.write.209.tlog
+D:\برمجة\تطبيقات\Shope\stocks\Stocks\Stocks\obj\Debug\GenerateResource.write.210.tlog
+D:\برمجة\تطبيقات\Shope\stocks\Stocks\Stocks\obj\Debug\GenerateResource.write.211.tlog
+D:\برمجة\تطبيقات\Shope\stocks\Stocks\Stocks\obj\Debug\GenerateResource.write.212.tlog
+D:\برمجة\تطبيقات\Shope\stocks\Stocks\Stocks\obj\Debug\GenerateResource.write.214.tlog
+D:\برمجة\تطبيقات\Shope\stocks\Stocks\Stocks\obj\Debug\GenerateResource.write.215.tlog
+D:\برمجة\تطبيقات\Shope\stocks\Stocks\Stocks\obj\Debug\GenerateResource.write.217.tlog
+D:\برمجة\تطبيقات\Shope\stocks\Stocks\Stocks\obj\Debug\GenerateResource.write.218.tlog
+D:\برمجة\تطبيقات\Shope\stocks\Stocks\Stocks\obj\Debug\GenerateResource.write.286.tlog
+D:\برمجة\تطبيقات\Shope\stocks\Stocks\Stocks\obj\Debug\GenerateResource.write.288.tlog
+D:\برمجة\تطبيقات\Shope\stocks\Stocks\Stocks\obj\Debug\GenerateResource.write.354.tlog
+D:\برمجة\تطبيقات\Shope\stocks\Stocks\Stocks\obj\Debug\GenerateResource.write.359.tlog
+D:\برمجة\تطبيقات\Shope\stocks\Stocks\Stocks\obj\Debug\GenerateResource.write.409.tlog
+D:\برمجة\تطبيقات\Shope\stocks\Stocks\Stocks\obj\Debug\GenerateResource.write.411.tlog
+D:\برمجة\تطبيقات\Shope\stocks\Stocks\Stocks\obj\Debug\GenerateResource.write.415.tlog
+D:\برمجة\تطبيقات\Shope\stocks\Stocks\Stocks\obj\Debug\GenerateResource.write.417.tlog
+D:\برمجة\تطبيقات\Shope\stocks\Stocks\Stocks\obj\Debug\Z_Apps.exe
+D:\برمجة\تطبيقات\Shope\stocks\Stocks\Stocks\obj\Debug\Z_Apps.xml
+D:\برمجة\تطبيقات\Shope\stocks\Stocks\Stocks\obj\Debug\Z_Apps.pdb
+F:\عمل\Z Apps\برامج تحت العمل\دسك توب\الحسابات\التطبيقات\Genral ACC\Shope\stocks\Stocks\Stocks\obj\Debug\Z_Apps.DesgineFrm.resources
+F:\عمل\Z Apps\برامج تحت العمل\دسك توب\الحسابات\التطبيقات\Genral ACC\Shope\stocks\Stocks\Stocks\obj\Debug\Z_Apps.AoutoEnterStockDataBookShopefrm.resources
+F:\عمل\Z Apps\برامج تحت العمل\دسك توب\الحسابات\التطبيقات\Genral ACC\Shope\stocks\Stocks\Stocks\obj\Debug\Z_Apps.AoutoEnterStockDataShopefrm.resources
+F:\عمل\Z Apps\برامج تحت العمل\دسك توب\الحسابات\التطبيقات\Genral ACC\Shope\stocks\Stocks\Stocks\obj\Debug\Z_Apps.StockDataMarket.resources
+F:\عمل\Z Apps\برامج تحت العمل\دسك توب\الحسابات\التطبيقات\Genral ACC\Shope\stocks\Stocks\Stocks\obj\Debug\Z_Apps.StockDataShopeingfr.resources
+F:\عمل\Z Apps\برامج تحت العمل\دسك توب\الحسابات\التطبيقات\Genral ACC\Shope\stocks\Stocks\Stocks\obj\Debug\Z_Apps.DataChoseFrm.resources
+F:\عمل\Z Apps\برامج تحت العمل\دسك توب\الحسابات\التطبيقات\Genral ACC\Shope\stocks\Stocks\Stocks\obj\Debug\Z_Apps.DesigneControlFrm.resources
+F:\عمل\Z Apps\برامج تحت العمل\دسك توب\الحسابات\التطبيقات\Genral ACC\Shope\stocks\Stocks\Stocks\obj\Debug\Z_Apps.logeinFrm.resources
+F:\عمل\Z Apps\برامج تحت العمل\دسك توب\الحسابات\التطبيقات\Genral ACC\Shope\stocks\Stocks\Stocks\obj\Debug\Z_Apps.PowersFrm.resources
+F:\عمل\Z Apps\برامج تحت العمل\دسك توب\الحسابات\التطبيقات\Genral ACC\Shope\stocks\Stocks\Stocks\obj\Debug\Z_Apps.RunTimeColorPorperty.resources
+F:\عمل\Z Apps\برامج تحت العمل\دسك توب\الحسابات\التطبيقات\Genral ACC\Shope\stocks\Stocks\Stocks\obj\Debug\Z_Apps.ClientSupplierAccfrm.resources
+F:\عمل\Z Apps\برامج تحت العمل\دسك توب\الحسابات\التطبيقات\Genral ACC\Shope\stocks\Stocks\Stocks\obj\Debug\Z_Apps.ExpRevFrm.resources
+F:\عمل\Z Apps\برامج تحت العمل\دسك توب\الحسابات\التطبيقات\Genral ACC\Shope\stocks\Stocks\Stocks\obj\Debug\Z_Apps.MarketMove.resources
+F:\عمل\Z Apps\برامج تحت العمل\دسك توب\الحسابات\التطبيقات\Genral ACC\Shope\stocks\Stocks\Stocks\obj\Debug\Z_Apps.TestPrint.resources
+F:\عمل\Z Apps\برامج تحت العمل\دسك توب\الحسابات\التطبيقات\Genral ACC\Shope\stocks\Stocks\Stocks\obj\Debug\Z_Apps.CashFlowQfrm.resources
+F:\عمل\Z Apps\برامج تحت العمل\دسك توب\الحسابات\التطبيقات\Genral ACC\Shope\stocks\Stocks\Stocks\obj\Debug\Z_Apps.ClientBalanceFrm.resources
+F:\عمل\Z Apps\برامج تحت العمل\دسك توب\الحسابات\التطبيقات\Genral ACC\Shope\stocks\Stocks\Stocks\obj\Debug\Z_Apps.MarketBalanceFrm.resources
+F:\عمل\Z Apps\برامج تحت العمل\دسك توب\الحسابات\التطبيقات\Genral ACC\Shope\stocks\Stocks\Stocks\obj\Debug\Z_Apps.smallQfrm.resources
+F:\عمل\Z Apps\برامج تحت العمل\دسك توب\الحسابات\التطبيقات\Genral ACC\Shope\stocks\Stocks\Stocks\obj\Debug\Z_Apps.StockMovementQuary.resources
+F:\عمل\Z Apps\برامج تحت العمل\دسك توب\الحسابات\التطبيقات\Genral ACC\Shope\stocks\Stocks\Stocks\obj\Debug\Z_Apps.MainMenuefrm.resources
+F:\عمل\Z Apps\برامج تحت العمل\دسك توب\الحسابات\التطبيقات\Genral ACC\Shope\stocks\Stocks\Stocks\obj\Debug\Z_Apps.Startfrm.resources
+F:\عمل\Z Apps\برامج تحت العمل\دسك توب\الحسابات\التطبيقات\Genral ACC\Shope\stocks\Stocks\Stocks\obj\Debug\Z_Apps.Welcomeform.resources
+F:\عمل\Z Apps\برامج تحت العمل\دسك توب\الحسابات\التطبيقات\Genral ACC\Shope\stocks\Stocks\Stocks\obj\Debug\Z_Apps.CashFlowfrm.resources
+F:\عمل\Z Apps\برامج تحت العمل\دسك توب\الحسابات\التطبيقات\Genral ACC\Shope\stocks\Stocks\Stocks\obj\Debug\Z_Apps.StockDataBookShopsFrm.resources
+F:\عمل\Z Apps\برامج تحت العمل\دسك توب\الحسابات\التطبيقات\Genral ACC\Shope\stocks\Stocks\Stocks\obj\Debug\Z_Apps.mainStnfFrm.resources
+F:\عمل\Z Apps\برامج تحت العمل\دسك توب\الحسابات\التطبيقات\Genral ACC\Shope\stocks\Stocks\Stocks\obj\Debug\Z_Apps.DataEpFrm.resources
+F:\عمل\Z Apps\برامج تحت العمل\دسك توب\الحسابات\التطبيقات\Genral ACC\Shope\stocks\Stocks\Stocks\obj\Debug\Z_Apps.CleintData.resources
+F:\عمل\Z Apps\برامج تحت العمل\دسك توب\الحسابات\التطبيقات\Genral ACC\Shope\stocks\Stocks\Stocks\obj\Debug\Z_Apps.StockMove.resources
+F:\عمل\Z Apps\برامج تحت العمل\دسك توب\الحسابات\التطبيقات\Genral ACC\Shope\stocks\Stocks\Stocks\obj\Debug\Z_Apps.TrailBalanceFrm.resources
+F:\عمل\Z Apps\برامج تحت العمل\دسك توب\الحسابات\التطبيقات\Genral ACC\Shope\stocks\Stocks\Stocks\obj\Debug\Z_Apps.t_lableButton.resources
+F:\عمل\Z Apps\برامج تحت العمل\دسك توب\الحسابات\التطبيقات\Genral ACC\Shope\stocks\Stocks\Stocks\obj\Debug\Z_Apps.Resources.resources
+F:\عمل\Z Apps\برامج تحت العمل\دسك توب\الحسابات\التطبيقات\Genral ACC\Shope\stocks\Stocks\Stocks\obj\Debug\Z_Apps.QueryBookShopfrm.resources
+F:\عمل\Z Apps\برامج تحت العمل\دسك توب\الحسابات\التطبيقات\Genral ACC\Shope\stocks\Stocks\Stocks\obj\Debug\Z_Apps.test.resources
+F:\عمل\Z Apps\برامج تحت العمل\دسك توب\الحسابات\التطبيقات\Genral ACC\Shope\stocks\Stocks\Stocks\obj\Debug\Z_Apps.DataPostionCode.resources
+F:\عمل\Z Apps\برامج تحت العمل\دسك توب\الحسابات\التطبيقات\Genral ACC\Shope\stocks\Stocks\Stocks\obj\Debug\Z_BookShope.vbproj.GenerateResource.Cache
+F:\عمل\Z Apps\برامج تحت العمل\دسك توب\الحسابات\التطبيقات\Genral ACC\Shope\stocks\Stocks\Stocks\obj\Debug\Z_Apps.xml
+F:\عمل\Z Apps\برامج تحت العمل\دسك توب\الحسابات\التطبيقات\Genral ACC\Shope\stocks\Stocks\Stocks\bin\Debug\Z_Apps.exe.config
+F:\عمل\Z Apps\برامج تحت العمل\دسك توب\الحسابات\التطبيقات\Genral ACC\Shope\stocks\Stocks\Stocks\obj\Debug\Z_BookShope.vbprojResolveAssemblyReference.cache
+F:\عمل\Z Apps\برامج تحت العمل\دسك توب\الحسابات\التطبيقات\Genral ACC\Shope\stocks\Stocks\Stocks\bin\Debug\CB_Acc.accdb
+F:\عمل\Z Apps\برامج تحت العمل\دسك توب\الحسابات\التطبيقات\Genral ACC\Shope\stocks\Stocks\Stocks\bin\Debug\Movement.mdb
+F:\عمل\Z Apps\برامج تحت العمل\دسك توب\الحسابات\التطبيقات\Genral ACC\Shope\stocks\Stocks\Stocks\bin\Debug\mydata.mdb
+F:\عمل\Z Apps\برامج تحت العمل\دسك توب\الحسابات\التطبيقات\Genral ACC\Shope\stocks\Stocks\Stocks\bin\Debug\Z_Apps.exe
+F:\عمل\Z Apps\برامج تحت العمل\دسك توب\الحسابات\التطبيقات\Genral ACC\Shope\stocks\Stocks\Stocks\bin\Debug\Z_Apps.pdb
+F:\عمل\Z Apps\برامج تحت العمل\دسك توب\الحسابات\التطبيقات\Genral ACC\Shope\stocks\Stocks\Stocks\bin\Debug\Z_Apps.xml
+F:\عمل\Z Apps\برامج تحت العمل\دسك توب\الحسابات\التطبيقات\Genral ACC\Shope\stocks\Stocks\Stocks\bin\Debug\ZeftawyTools.dll
+F:\عمل\Z Apps\برامج تحت العمل\دسك توب\الحسابات\التطبيقات\Genral ACC\Shope\stocks\Stocks\Stocks\bin\Debug\ZeftawyTools.vshost.exe
+F:\عمل\Z Apps\برامج تحت العمل\دسك توب\الحسابات\التطبيقات\Genral ACC\Shope\stocks\Stocks\Stocks\bin\Debug\ZeftawyTools.pdb
+F:\عمل\Z Apps\برامج تحت العمل\دسك توب\الحسابات\التطبيقات\Genral ACC\Shope\stocks\Stocks\Stocks\bin\Debug\ZeftawyTools.xml
+F:\عمل\Z Apps\برامج تحت العمل\دسك توب\الحسابات\التطبيقات\Genral ACC\Shope\stocks\Stocks\Stocks\obj\Debug\Z_Apps.exe
+F:\عمل\Z Apps\برامج تحت العمل\دسك توب\الحسابات\التطبيقات\Genral ACC\Shope\stocks\Stocks\Stocks\obj\Debug\Z_Apps.pdb
+F:\عمل\Z Apps\برامج تحت العمل\دسك توب\الحسابات\التطبيقات\Genral ACC\V 1.00\Shope\stocks\Stocks\Stocks\bin\Debug\Z_Apps.exe.config
+F:\عمل\Z Apps\برامج تحت العمل\دسك توب\الحسابات\التطبيقات\Genral ACC\V 1.00\Shope\stocks\Stocks\Stocks\obj\Debug\Z_Apps.exe
+F:\عمل\Z Apps\برامج تحت العمل\دسك توب\الحسابات\التطبيقات\Genral ACC\V 1.00\Shope\stocks\Stocks\Stocks\obj\Debug\Z_Apps.xml
+F:\عمل\Z Apps\برامج تحت العمل\دسك توب\الحسابات\التطبيقات\Genral ACC\V 1.00\Shope\stocks\Stocks\Stocks\obj\Debug\Z_Apps.pdb
+F:\عمل\Z Apps\برامج تحت العمل\دسك توب\الحسابات\التطبيقات\Genral ACC\V 1.00\Shope\stocks\Stocks\Stocks\bin\Debug\CB_Acc.accdb
+F:\عمل\Z Apps\برامج تحت العمل\دسك توب\الحسابات\التطبيقات\Genral ACC\V 1.00\Shope\stocks\Stocks\Stocks\bin\Debug\Movement.mdb
+F:\عمل\Z Apps\برامج تحت العمل\دسك توب\الحسابات\التطبيقات\Genral ACC\V 1.00\Shope\stocks\Stocks\Stocks\bin\Debug\mydata.mdb
+F:\عمل\Z Apps\برامج تحت العمل\دسك توب\الحسابات\التطبيقات\Genral ACC\V 1.00\Shope\stocks\Stocks\Stocks\bin\Debug\Z_Apps.exe
+F:\عمل\Z Apps\برامج تحت العمل\دسك توب\الحسابات\التطبيقات\Genral ACC\V 1.00\Shope\stocks\Stocks\Stocks\bin\Debug\Z_Apps.pdb
+F:\عمل\Z Apps\برامج تحت العمل\دسك توب\الحسابات\التطبيقات\Genral ACC\V 1.00\Shope\stocks\Stocks\Stocks\bin\Debug\Z_Apps.xml
+F:\عمل\Z Apps\برامج تحت العمل\دسك توب\الحسابات\التطبيقات\Genral ACC\V 1.00\Shope\stocks\Stocks\Stocks\bin\Debug\ZeftawyTools.dll
+F:\عمل\Z Apps\برامج تحت العمل\دسك توب\الحسابات\التطبيقات\Genral ACC\V 1.00\Shope\stocks\Stocks\Stocks\bin\Debug\ZeftawyTools.vshost.exe
+F:\عمل\Z Apps\برامج تحت العمل\دسك توب\الحسابات\التطبيقات\Genral ACC\V 1.00\Shope\stocks\Stocks\Stocks\bin\Debug\ZeftawyTools.pdb
+F:\عمل\Z Apps\برامج تحت العمل\دسك توب\الحسابات\التطبيقات\Genral ACC\V 1.00\Shope\stocks\Stocks\Stocks\bin\Debug\ZeftawyTools.xml
+F:\عمل\Z Apps\برامج تحت العمل\دسك توب\الحسابات\التطبيقات\Genral ACC\V 1.00\Shope\stocks\Stocks\Stocks\obj\Debug\Z_BookShope.vbprojResolveAssemblyReference.cache
+F:\عمل\Z Apps\برامج تحت العمل\دسك توب\الحسابات\التطبيقات\Genral ACC\V 1.00\Shope\stocks\Stocks\Stocks\obj\Debug\Z_Apps.DesgineFrm.resources
+F:\عمل\Z Apps\برامج تحت العمل\دسك توب\الحسابات\التطبيقات\Genral ACC\V 1.00\Shope\stocks\Stocks\Stocks\obj\Debug\Z_Apps.AoutoEnterStockDataBookShopefrm.resources
+F:\عمل\Z Apps\برامج تحت العمل\دسك توب\الحسابات\التطبيقات\Genral ACC\V 1.00\Shope\stocks\Stocks\Stocks\obj\Debug\Z_Apps.AoutoEnterStockDataShopefrm.resources
+F:\عمل\Z Apps\برامج تحت العمل\دسك توب\الحسابات\التطبيقات\Genral ACC\V 1.00\Shope\stocks\Stocks\Stocks\obj\Debug\Z_Apps.StockDataMarket.resources
+F:\عمل\Z Apps\برامج تحت العمل\دسك توب\الحسابات\التطبيقات\Genral ACC\V 1.00\Shope\stocks\Stocks\Stocks\obj\Debug\Z_Apps.StockDataShopeingfr.resources
+F:\عمل\Z Apps\برامج تحت العمل\دسك توب\الحسابات\التطبيقات\Genral ACC\V 1.00\Shope\stocks\Stocks\Stocks\obj\Debug\Z_Apps.DataChoseFrm.resources
+F:\عمل\Z Apps\برامج تحت العمل\دسك توب\الحسابات\التطبيقات\Genral ACC\V 1.00\Shope\stocks\Stocks\Stocks\obj\Debug\Z_Apps.DesigneControlFrm.resources
+F:\عمل\Z Apps\برامج تحت العمل\دسك توب\الحسابات\التطبيقات\Genral ACC\V 1.00\Shope\stocks\Stocks\Stocks\obj\Debug\Z_Apps.logeinFrm.resources
+F:\عمل\Z Apps\برامج تحت العمل\دسك توب\الحسابات\التطبيقات\Genral ACC\V 1.00\Shope\stocks\Stocks\Stocks\obj\Debug\Z_Apps.PowersFrm.resources
+F:\عمل\Z Apps\برامج تحت العمل\دسك توب\الحسابات\التطبيقات\Genral ACC\V 1.00\Shope\stocks\Stocks\Stocks\obj\Debug\Z_Apps.RunTimeColorPorperty.resources
+F:\عمل\Z Apps\برامج تحت العمل\دسك توب\الحسابات\التطبيقات\Genral ACC\V 1.00\Shope\stocks\Stocks\Stocks\obj\Debug\Z_Apps.ClientSupplierAccfrm.resources
+F:\عمل\Z Apps\برامج تحت العمل\دسك توب\الحسابات\التطبيقات\Genral ACC\V 1.00\Shope\stocks\Stocks\Stocks\obj\Debug\Z_Apps.ExpRevFrm.resources
+F:\عمل\Z Apps\برامج تحت العمل\دسك توب\الحسابات\التطبيقات\Genral ACC\V 1.00\Shope\stocks\Stocks\Stocks\obj\Debug\Z_Apps.MarketMove.resources
+F:\عمل\Z Apps\برامج تحت العمل\دسك توب\الحسابات\التطبيقات\Genral ACC\V 1.00\Shope\stocks\Stocks\Stocks\obj\Debug\Z_Apps.TestPrint.resources
+F:\عمل\Z Apps\برامج تحت العمل\دسك توب\الحسابات\التطبيقات\Genral ACC\V 1.00\Shope\stocks\Stocks\Stocks\obj\Debug\Z_Apps.CashFlowQfrm.resources
+F:\عمل\Z Apps\برامج تحت العمل\دسك توب\الحسابات\التطبيقات\Genral ACC\V 1.00\Shope\stocks\Stocks\Stocks\obj\Debug\Z_Apps.ClientBalanceFrm.resources
+F:\عمل\Z Apps\برامج تحت العمل\دسك توب\الحسابات\التطبيقات\Genral ACC\V 1.00\Shope\stocks\Stocks\Stocks\obj\Debug\Z_Apps.MarketBalanceFrm.resources
+F:\عمل\Z Apps\برامج تحت العمل\دسك توب\الحسابات\التطبيقات\Genral ACC\V 1.00\Shope\stocks\Stocks\Stocks\obj\Debug\Z_Apps.smallQfrm.resources
+F:\عمل\Z Apps\برامج تحت العمل\دسك توب\الحسابات\التطبيقات\Genral ACC\V 1.00\Shope\stocks\Stocks\Stocks\obj\Debug\Z_Apps.StockMovementQuary.resources
+F:\عمل\Z Apps\برامج تحت العمل\دسك توب\الحسابات\التطبيقات\Genral ACC\V 1.00\Shope\stocks\Stocks\Stocks\obj\Debug\Z_Apps.MainMenuefrm.resources
+F:\عمل\Z Apps\برامج تحت العمل\دسك توب\الحسابات\التطبيقات\Genral ACC\V 1.00\Shope\stocks\Stocks\Stocks\obj\Debug\Z_Apps.Startfrm.resources
+F:\عمل\Z Apps\برامج تحت العمل\دسك توب\الحسابات\التطبيقات\Genral ACC\V 1.00\Shope\stocks\Stocks\Stocks\obj\Debug\Z_Apps.Welcomeform.resources
+F:\عمل\Z Apps\برامج تحت العمل\دسك توب\الحسابات\التطبيقات\Genral ACC\V 1.00\Shope\stocks\Stocks\Stocks\obj\Debug\Z_Apps.CashFlowfrm.resources
+F:\عمل\Z Apps\برامج تحت العمل\دسك توب\الحسابات\التطبيقات\Genral ACC\V 1.00\Shope\stocks\Stocks\Stocks\obj\Debug\Z_Apps.StockDataBookShopsFrm.resources
+F:\عمل\Z Apps\برامج تحت العمل\دسك توب\الحسابات\التطبيقات\Genral ACC\V 1.00\Shope\stocks\Stocks\Stocks\obj\Debug\Z_Apps.mainStnfFrm.resources
+F:\عمل\Z Apps\برامج تحت العمل\دسك توب\الحسابات\التطبيقات\Genral ACC\V 1.00\Shope\stocks\Stocks\Stocks\obj\Debug\Z_Apps.DataEpFrm.resources
+F:\عمل\Z Apps\برامج تحت العمل\دسك توب\الحسابات\التطبيقات\Genral ACC\V 1.00\Shope\stocks\Stocks\Stocks\obj\Debug\Z_Apps.CleintData.resources
+F:\عمل\Z Apps\برامج تحت العمل\دسك توب\الحسابات\التطبيقات\Genral ACC\V 1.00\Shope\stocks\Stocks\Stocks\obj\Debug\Z_Apps.StockMove.resources
+F:\عمل\Z Apps\برامج تحت العمل\دسك توب\الحسابات\التطبيقات\Genral ACC\V 1.00\Shope\stocks\Stocks\Stocks\obj\Debug\Z_Apps.TrailBalanceFrm.resources
+F:\عمل\Z Apps\برامج تحت العمل\دسك توب\الحسابات\التطبيقات\Genral ACC\V 1.00\Shope\stocks\Stocks\Stocks\obj\Debug\Z_Apps.t_lableButton.resources
+F:\عمل\Z Apps\برامج تحت العمل\دسك توب\الحسابات\التطبيقات\Genral ACC\V 1.00\Shope\stocks\Stocks\Stocks\obj\Debug\Z_Apps.Resources.resources
+F:\عمل\Z Apps\برامج تحت العمل\دسك توب\الحسابات\التطبيقات\Genral ACC\V 1.00\Shope\stocks\Stocks\Stocks\obj\Debug\Z_Apps.QueryBookShopfrm.resources
+F:\عمل\Z Apps\برامج تحت العمل\دسك توب\الحسابات\التطبيقات\Genral ACC\V 1.00\Shope\stocks\Stocks\Stocks\obj\Debug\Z_Apps.test.resources
+F:\عمل\Z Apps\برامج تحت العمل\دسك توب\الحسابات\التطبيقات\Genral ACC\V 1.00\Shope\stocks\Stocks\Stocks\obj\Debug\Z_Apps.DataPostionCode.resources
+F:\عمل\Z Apps\برامج تحت العمل\دسك توب\الحسابات\التطبيقات\Genral ACC\V 1.00\Shope\stocks\Stocks\Stocks\obj\Debug\Z_BookShope.vbproj.GenerateResource.Cache
